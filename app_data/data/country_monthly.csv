@@ -1,0 +1,2161 @@
+month_start,ISO3,country,calls_per_day
+2025-10-01,ABW,Aruba,1.06
+2025-10-01,AGO,Angola,6.1
+2025-10-01,AIA,Anguilla,0.29
+2025-10-01,ALB,Albania,1.81
+2025-10-01,ARE,United Arab Emirates,78.94
+2025-10-01,ARG,Argentina,24.84
+2025-10-01,ASM,American Samoa,0.29
+2025-10-01,ATG,Antigua and Barbuda,0.94
+2025-10-01,AUS,Australia,72.58
+2025-10-01,AZE,Azerbaijan,5.03
+2025-10-01,BEL,Belgium,77.1
+2025-10-01,BEN,Benin,2.35
+2025-10-01,BES,"Bonaire,  Saint Eustatius and Saba",1.48
+2025-10-01,BGD,Bangladesh,7.03
+2025-10-01,BGR,Bulgaria,4.61
+2025-10-01,BHR,Bahrain,5.23
+2025-10-01,BHS,The Bahamas,6.94
+2025-10-01,BLM,Saint-Barthélemy,0.48
+2025-10-01,BLZ,Belize,0.9
+2025-10-01,BRA,Brazil,93.77
+2025-10-01,BRB,Barbados,1.84
+2025-10-01,BRN,Brunei Darussalam,2.71
+2025-10-01,CAN,Canada,38.23
+2025-10-01,CHL,Chile,20.74
+2025-10-01,CHN,China,730.55
+2025-10-01,CIV,Côte d'Ivoire,6.45
+2025-10-01,CMR,Cameroon,4.29
+2025-10-01,COD,Democratic Republic of the Congo,1.97
+2025-10-01,COG,Republic of Congo,3.06
+2025-10-01,COK,Cook Islands,0.1
+2025-10-01,COL,Colombia,23.23
+2025-10-01,COM,Comoros,0.45
+2025-10-01,CPV,Cabo Verde,3.74
+2025-10-01,CRI,Costa Rica,5.68
+2025-10-01,CUB,Cuba,3.55
+2025-10-01,CUW,Curaçao,1.52
+2025-10-01,CYM,Cayman Islands,0.77
+2025-10-01,CYP,Cyprus,9.39
+2025-10-01,DEU,Germany,69.77
+2025-10-01,DJI,Djibouti,3.84
+2025-10-01,DMA,Dominica,0.61
+2025-10-01,DNK,Denmark,31.94
+2025-10-01,DOM,Dominican Republic,10.16
+2025-10-01,DZA,Algeria,16.84
+2025-10-01,ECU,Ecuador,10.39
+2025-10-01,EGY,Egypt,34.03
+2025-10-01,ERI,Eritrea,0.26
+2025-10-01,ESP,Spain,129.16
+2025-10-01,EST,Estonia,6.1
+2025-10-01,FIN,Finland,26.16
+2025-10-01,FJI,Fiji,2.39
+2025-10-01,FRA,France,53.03
+2025-10-01,FRO,Faroe Islands,0.48
+2025-10-01,FSM,Micronesia,0.71
+2025-10-01,GAB,Gabon,2.87
+2025-10-01,GBR,United Kingdom,104.61
+2025-10-01,GEO,Georgia,4.19
+2025-10-01,GHA,Ghana,5.55
+2025-10-01,GIB,Gibraltar,2.68
+2025-10-01,GIN,Guinea,4.42
+2025-10-01,GLP,Guadeloupe,2.03
+2025-10-01,GMB,The Gambia,0.61
+2025-10-01,GNB,Guinea-Bissau,0.58
+2025-10-01,GNQ,Equatorial Guinea,1.71
+2025-10-01,GRC,Greece,45.1
+2025-10-01,GRD,Grenada,0.9
+2025-10-01,GTM,Guatemala,7.94
+2025-10-01,GUF,French Guiana,0.52
+2025-10-01,GUM,Guam,0.84
+2025-10-01,GUY,Guyana,8.32
+2025-10-01,HKG,Hong Kong SAR,40.19
+2025-10-01,HND,Honduras,5.23
+2025-10-01,HRV,Croatia,3.1
+2025-10-01,HTI,Haiti,1.94
+2025-10-01,IDN,Indonesia,211.1
+2025-10-01,IND,India,71.29
+2025-10-01,IRL,Ireland,13.19
+2025-10-01,IRN,Iran,24.48
+2025-10-01,IRQ,Iraq,11.29
+2025-10-01,ISL,Iceland,2.42
+2025-10-01,ISR,Israel,11.71
+2025-10-01,ITA,Italy,86.29
+2025-10-01,JAM,Jamaica,7.06
+2025-10-01,JOR,Jordan,3.26
+2025-10-01,JPN,Japan,736.32
+2025-10-01,KAZ,Kazakhstan,2.55
+2025-10-01,KEN,Kenya,4.97
+2025-10-01,KHM,Cambodia,3.77
+2025-10-01,KIR,Kiribati,0.13
+2025-10-01,KNA,St.  Kitts and Nevis,0.48
+2025-10-01,KOR,Korea,150.13
+2025-10-01,KWT,Kuwait,7.55
+2025-10-01,LBN,Lebanon,5.55
+2025-10-01,LBR,Liberia,1.55
+2025-10-01,LBY,Libya,7.68
+2025-10-01,LCA,St.  Lucia,2.03
+2025-10-01,LKA,Sri Lanka,14.13
+2025-10-01,LTU,Lithuania,8.71
+2025-10-01,LVA,Latvia,9.32
+2025-10-01,MAC,Macao SAR,0.81
+2025-10-01,MAF,Saint Martin,0.45
+2025-10-01,MAR,Morocco,29.71
+2025-10-01,MDA,Moldova,1.03
+2025-10-01,MDG,Madagascar,2.16
+2025-10-01,MDV,Maldives,1.71
+2025-10-01,MEX,Mexico,35.23
+2025-10-01,MHL,Marshall Islands,0.32
+2025-10-01,MLT,Malta,11.23
+2025-10-01,MMR,Myanmar,4.32
+2025-10-01,MNE,Montenegro,0.48
+2025-10-01,MNP,Northern Mariana Islands,0.32
+2025-10-01,MOZ,Mozambique,7.1
+2025-10-01,MRT,Mauritania,2.71
+2025-10-01,MSR,Montserrat,0.1
+2025-10-01,MTQ,Martinique,1.55
+2025-10-01,MUS,Mauritius,2.94
+2025-10-01,MYS,Malaysia,112.23
+2025-10-01,MYT,Mayotte,0.39
+2025-10-01,NAM,Namibia,2.06
+2025-10-01,NCL,New Caledonia,2.16
+2025-10-01,NGA,Nigeria,12.26
+2025-10-01,NIC,Nicaragua,1.71
+2025-10-01,NLD,The Netherlands,142.71
+2025-10-01,NOR,Norway,76.65
+2025-10-01,NRU,Nauru,0.13
+2025-10-01,NZL,New Zealand,16.29
+2025-10-01,OMN,Oman,12.87
+2025-10-01,PAK,Pakistan,4.77
+2025-10-01,PAN,Panama,29.0
+2025-10-01,PER,Peru,15.06
+2025-10-01,PHL,Philippines,50.48
+2025-10-01,PLW,Palau,0.13
+2025-10-01,PNG,Papua New Guinea,8.13
+2025-10-01,POL,Poland,23.19
+2025-10-01,PRI,Puerto Rico,3.42
+2025-10-01,PRT,Portugal,26.39
+2025-10-01,PYF,French Polynesia,2.42
+2025-10-01,QAT,Qatar,10.06
+2025-10-01,REU,Réunion,1.45
+2025-10-01,ROU,Romania,11.74
+2025-10-01,RUS,Russian Federation,83.0
+2025-10-01,SAU,Saudi Arabia,33.81
+2025-10-01,SDN,Sudan,4.74
+2025-10-01,SEN,Senegal,4.74
+2025-10-01,SGP,Singapore,146.87
+2025-10-01,SLB,Solomon Islands,0.97
+2025-10-01,SLE,Sierra Leone,2.0
+2025-10-01,SLV,El Salvador,1.74
+2025-10-01,SOM,Somalia,2.0
+2025-10-01,STP,São Tomé and Príncipe,0.03
+2025-10-01,SUR,Suriname,1.97
+2025-10-01,SVN,Slovenia,4.16
+2025-10-01,SWE,Sweden,43.03
+2025-10-01,SXM,Sint Maarten,1.87
+2025-10-01,SYC,Seychelles,0.39
+2025-10-01,SYR,Syria,2.68
+2025-10-01,TCA,Turks and Caicos Islands,1.06
+2025-10-01,TGO,Togo,4.52
+2025-10-01,THA,Thailand,65.65
+2025-10-01,TKM,Turkmenistan,1.71
+2025-10-01,TLS,Timor-Leste,0.06
+2025-10-01,TON,Tonga,0.71
+2025-10-01,TTO,Trinidad and Tobago,7.26
+2025-10-01,TUN,Tunisia,7.0
+2025-10-01,TUR,Türkiye,138.06
+2025-10-01,TUV,Tuvalu,0.06
+2025-10-01,TWN,Taiwan Province of China,55.29
+2025-10-01,TZA,Tanzania,4.94
+2025-10-01,UKR,Ukraine,14.94
+2025-10-01,URY,Uruguay,5.42
+2025-10-01,USA,United States,193.39
+2025-10-01,VCT,St.  Vincent and the Grenadines,1.29
+2025-10-01,VEN,Venezuela,6.35
+2025-10-01,VGB,British Virgin Islands,0.65
+2025-10-01,VIR,United States Virgin Islands,3.9
+2025-10-01,VNM,Vietnam,103.45
+2025-10-01,VUT,Vanuatu,0.55
+2025-10-01,WSM,Samoa,0.42
+2025-10-01,YEM,Yemen,2.55
+2025-10-01,ZAF,South Africa,20.29
+2025-11-01,ABW,Aruba,1.07
+2025-11-01,AGO,Angola,6.53
+2025-11-01,AIA,Anguilla,0.33
+2025-11-01,ALB,Albania,2.13
+2025-11-01,ARE,United Arab Emirates,76.27
+2025-11-01,ARG,Argentina,26.3
+2025-11-01,ASM,American Samoa,0.27
+2025-11-01,ATG,Antigua and Barbuda,1.0
+2025-11-01,AUS,Australia,75.03
+2025-11-01,AZE,Azerbaijan,5.47
+2025-11-01,BEL,Belgium,84.9
+2025-11-01,BEN,Benin,2.43
+2025-11-01,BES,"Bonaire,  Saint Eustatius and Saba",1.33
+2025-11-01,BGD,Bangladesh,6.6
+2025-11-01,BGR,Bulgaria,5.0
+2025-11-01,BHR,Bahrain,4.37
+2025-11-01,BHS,The Bahamas,6.7
+2025-11-01,BLM,Saint-Barthélemy,0.63
+2025-11-01,BLZ,Belize,0.8
+2025-11-01,BRA,Brazil,94.73
+2025-11-01,BRB,Barbados,1.83
+2025-11-01,BRN,Brunei Darussalam,2.6
+2025-11-01,CAN,Canada,41.43
+2025-11-01,CHL,Chile,20.67
+2025-11-01,CHN,China,773.17
+2025-11-01,CIV,Côte d'Ivoire,6.57
+2025-11-01,CMR,Cameroon,4.03
+2025-11-01,COD,Democratic Republic of the Congo,2.0
+2025-11-01,COG,Republic of Congo,2.9
+2025-11-01,COK,Cook Islands,0.13
+2025-11-01,COL,Colombia,22.47
+2025-11-01,COM,Comoros,0.37
+2025-11-01,CPV,Cabo Verde,3.83
+2025-11-01,CRI,Costa Rica,5.23
+2025-11-01,CUB,Cuba,4.13
+2025-11-01,CUW,Curaçao,1.4
+2025-11-01,CYM,Cayman Islands,0.93
+2025-11-01,CYP,Cyprus,9.63
+2025-11-01,DEU,Germany,70.77
+2025-11-01,DJI,Djibouti,4.37
+2025-11-01,DMA,Dominica,0.9
+2025-11-01,DNK,Denmark,31.0
+2025-11-01,DOM,Dominican Republic,9.37
+2025-11-01,DZA,Algeria,15.53
+2025-11-01,ECU,Ecuador,10.0
+2025-11-01,EGY,Egypt,32.03
+2025-11-01,ERI,Eritrea,0.23
+2025-11-01,ESP,Spain,131.13
+2025-11-01,EST,Estonia,6.4
+2025-11-01,FIN,Finland,27.33
+2025-11-01,FJI,Fiji,2.7
+2025-11-01,FRA,France,54.33
+2025-11-01,FRO,Faroe Islands,0.63
+2025-11-01,FSM,Micronesia,0.7
+2025-11-01,GAB,Gabon,2.8
+2025-11-01,GBR,United Kingdom,108.73
+2025-11-01,GEO,Georgia,4.77
+2025-11-01,GHA,Ghana,6.27
+2025-11-01,GIB,Gibraltar,2.57
+2025-11-01,GIN,Guinea,4.43
+2025-11-01,GLP,Guadeloupe,2.13
+2025-11-01,GMB,The Gambia,0.63
+2025-11-01,GNB,Guinea-Bissau,0.2
+2025-11-01,GNQ,Equatorial Guinea,2.1
+2025-11-01,GRC,Greece,41.83
+2025-11-01,GRD,Grenada,1.0
+2025-11-01,GTM,Guatemala,8.03
+2025-11-01,GUF,French Guiana,0.6
+2025-11-01,GUM,Guam,0.8
+2025-11-01,GUY,Guyana,8.07
+2025-11-01,HKG,Hong Kong SAR,42.8
+2025-11-01,HND,Honduras,5.27
+2025-11-01,HRV,Croatia,3.1
+2025-11-01,HTI,Haiti,2.27
+2025-11-01,IDN,Indonesia,210.57
+2025-11-01,IND,India,69.9
+2025-11-01,IRL,Ireland,13.87
+2025-11-01,IRN,Iran,11.03
+2025-11-01,IRQ,Iraq,10.73
+2025-11-01,ISL,Iceland,2.33
+2025-11-01,ISR,Israel,13.1
+2025-11-01,ITA,Italy,84.23
+2025-11-01,JAM,Jamaica,8.37
+2025-11-01,JOR,Jordan,3.47
+2025-11-01,JPN,Japan,767.53
+2025-11-01,KAZ,Kazakhstan,3.37
+2025-11-01,KEN,Kenya,4.87
+2025-11-01,KHM,Cambodia,3.53
+2025-11-01,KIR,Kiribati,0.3
+2025-11-01,KNA,St.  Kitts and Nevis,0.83
+2025-11-01,KOR,Korea,157.03
+2025-11-01,KWT,Kuwait,7.57
+2025-11-01,LBN,Lebanon,5.13
+2025-11-01,LBR,Liberia,1.5
+2025-11-01,LBY,Libya,7.97
+2025-11-01,LCA,St.  Lucia,1.9
+2025-11-01,LKA,Sri Lanka,12.47
+2025-11-01,LTU,Lithuania,9.4
+2025-11-01,LVA,Latvia,10.83
+2025-11-01,MAC,Macao SAR,1.1
+2025-11-01,MAF,Saint Martin,0.53
+2025-11-01,MAR,Morocco,31.57
+2025-11-01,MDA,Moldova,1.1
+2025-11-01,MDG,Madagascar,2.37
+2025-11-01,MDV,Maldives,2.07
+2025-11-01,MEX,Mexico,34.53
+2025-11-01,MHL,Marshall Islands,0.23
+2025-11-01,MLT,Malta,11.57
+2025-11-01,MMR,Myanmar,4.43
+2025-11-01,MNE,Montenegro,0.67
+2025-11-01,MNP,Northern Mariana Islands,0.37
+2025-11-01,MOZ,Mozambique,6.83
+2025-11-01,MRT,Mauritania,2.83
+2025-11-01,MSR,Montserrat,0.4
+2025-11-01,MTQ,Martinique,1.53
+2025-11-01,MUS,Mauritius,2.93
+2025-11-01,MYS,Malaysia,107.33
+2025-11-01,MYT,Mayotte,0.47
+2025-11-01,NAM,Namibia,2.13
+2025-11-01,NCL,New Caledonia,2.23
+2025-11-01,NGA,Nigeria,13.5
+2025-11-01,NIC,Nicaragua,1.3
+2025-11-01,NLD,The Netherlands,150.27
+2025-11-01,NOR,Norway,76.9
+2025-11-01,NRU,Nauru,0.13
+2025-11-01,NZL,New Zealand,17.0
+2025-11-01,OMN,Oman,11.97
+2025-11-01,PAK,Pakistan,4.5
+2025-11-01,PAN,Panama,29.47
+2025-11-01,PER,Peru,17.13
+2025-11-01,PHL,Philippines,46.0
+2025-11-01,PLW,Palau,0.13
+2025-11-01,PNG,Papua New Guinea,7.43
+2025-11-01,POL,Poland,25.9
+2025-11-01,PRI,Puerto Rico,3.5
+2025-11-01,PRT,Portugal,23.93
+2025-11-01,PYF,French Polynesia,2.43
+2025-11-01,QAT,Qatar,7.93
+2025-11-01,REU,Réunion,1.3
+2025-11-01,ROU,Romania,11.33
+2025-11-01,RUS,Russian Federation,78.83
+2025-11-01,SAU,Saudi Arabia,33.53
+2025-11-01,SDN,Sudan,2.1
+2025-11-01,SEN,Senegal,4.77
+2025-11-01,SGP,Singapore,145.83
+2025-11-01,SLB,Solomon Islands,1.07
+2025-11-01,SLE,Sierra Leone,2.3
+2025-11-01,SLV,El Salvador,1.37
+2025-11-01,SOM,Somalia,2.47
+2025-11-01,STP,São Tomé and Príncipe,0.1
+2025-11-01,SUR,Suriname,1.77
+2025-11-01,SVN,Slovenia,4.03
+2025-11-01,SWE,Sweden,44.7
+2025-11-01,SXM,Sint Maarten,2.17
+2025-11-01,SYC,Seychelles,0.7
+2025-11-01,SYR,Syria,3.03
+2025-11-01,TCA,Turks and Caicos Islands,1.27
+2025-11-01,TGO,Togo,4.47
+2025-11-01,THA,Thailand,63.0
+2025-11-01,TKM,Turkmenistan,1.5
+2025-11-01,TLS,Timor-Leste,0.07
+2025-11-01,TON,Tonga,0.53
+2025-11-01,TTO,Trinidad and Tobago,7.47
+2025-11-01,TUN,Tunisia,7.53
+2025-11-01,TUR,Türkiye,142.67
+2025-11-01,TUV,Tuvalu,0.1
+2025-11-01,TWN,Taiwan Province of China,51.9
+2025-11-01,TZA,Tanzania,4.37
+2025-11-01,UKR,Ukraine,11.1
+2025-11-01,URY,Uruguay,4.9
+2025-11-01,USA,United States,190.87
+2025-11-01,VCT,St.  Vincent and the Grenadines,1.07
+2025-11-01,VEN,Venezuela,6.43
+2025-11-01,VGB,British Virgin Islands,0.53
+2025-11-01,VIR,United States Virgin Islands,4.7
+2025-11-01,VNM,Vietnam,99.47
+2025-11-01,VUT,Vanuatu,0.6
+2025-11-01,WSM,Samoa,0.53
+2025-11-01,YEM,Yemen,2.47
+2025-11-01,ZAF,South Africa,20.7
+2025-12-01,ABW,Aruba,1.0
+2025-12-01,AGO,Angola,6.0
+2025-12-01,AIA,Anguilla,0.29
+2025-12-01,ALB,Albania,2.16
+2025-12-01,ARE,United Arab Emirates,71.9
+2025-12-01,ARG,Argentina,24.71
+2025-12-01,ASM,American Samoa,0.39
+2025-12-01,ATG,Antigua and Barbuda,1.0
+2025-12-01,AUS,Australia,77.0
+2025-12-01,AZE,Azerbaijan,4.9
+2025-12-01,BEL,Belgium,84.94
+2025-12-01,BEN,Benin,2.1
+2025-12-01,BES,"Bonaire,  Saint Eustatius and Saba",1.32
+2025-12-01,BGD,Bangladesh,6.23
+2025-12-01,BGR,Bulgaria,5.65
+2025-12-01,BHR,Bahrain,4.45
+2025-12-01,BHS,The Bahamas,6.55
+2025-12-01,BLM,Saint-Barthélemy,0.48
+2025-12-01,BLZ,Belize,0.68
+2025-12-01,BRA,Brazil,93.61
+2025-12-01,BRB,Barbados,1.84
+2025-12-01,BRN,Brunei Darussalam,2.68
+2025-12-01,CAN,Canada,36.68
+2025-12-01,CHL,Chile,20.71
+2025-12-01,CHN,China,779.87
+2025-12-01,CIV,Côte d'Ivoire,7.19
+2025-12-01,CMR,Cameroon,3.71
+2025-12-01,COD,Democratic Republic of the Congo,2.1
+2025-12-01,COG,Republic of Congo,3.26
+2025-12-01,COK,Cook Islands,0.1
+2025-12-01,COL,Colombia,21.32
+2025-12-01,COM,Comoros,0.42
+2025-12-01,CPV,Cabo Verde,3.55
+2025-12-01,CRI,Costa Rica,5.0
+2025-12-01,CUB,Cuba,2.29
+2025-12-01,CUW,Curaçao,1.26
+2025-12-01,CYM,Cayman Islands,1.0
+2025-12-01,CYP,Cyprus,8.42
+2025-12-01,DEU,Germany,64.61
+2025-12-01,DJI,Djibouti,3.71
+2025-12-01,DMA,Dominica,0.68
+2025-12-01,DNK,Denmark,27.9
+2025-12-01,DOM,Dominican Republic,9.65
+2025-12-01,DZA,Algeria,15.68
+2025-12-01,ECU,Ecuador,9.39
+2025-12-01,EGY,Egypt,28.35
+2025-12-01,ERI,Eritrea,0.29
+2025-12-01,ESP,Spain,121.32
+2025-12-01,EST,Estonia,5.9
+2025-12-01,FIN,Finland,25.71
+2025-12-01,FJI,Fiji,2.52
+2025-12-01,FRA,France,53.9
+2025-12-01,FRO,Faroe Islands,0.68
+2025-12-01,FSM,Micronesia,0.87
+2025-12-01,GAB,Gabon,2.81
+2025-12-01,GBR,United Kingdom,100.65
+2025-12-01,GEO,Georgia,4.0
+2025-12-01,GHA,Ghana,6.0
+2025-12-01,GIB,Gibraltar,2.61
+2025-12-01,GIN,Guinea,4.84
+2025-12-01,GLP,Guadeloupe,1.58
+2025-12-01,GMB,The Gambia,0.61
+2025-12-01,GNB,Guinea-Bissau,0.35
+2025-12-01,GNQ,Equatorial Guinea,2.39
+2025-12-01,GRC,Greece,41.03
+2025-12-01,GRD,Grenada,0.94
+2025-12-01,GTM,Guatemala,8.39
+2025-12-01,GUF,French Guiana,0.71
+2025-12-01,GUM,Guam,0.9
+2025-12-01,GUY,Guyana,7.19
+2025-12-01,HKG,Hong Kong SAR,42.35
+2025-12-01,HND,Honduras,4.65
+2025-12-01,HRV,Croatia,3.0
+2025-12-01,HTI,Haiti,1.61
+2025-12-01,IDN,Indonesia,205.55
+2025-12-01,IND,India,59.29
+2025-12-01,IRL,Ireland,12.84
+2025-12-01,IRN,Iran,5.97
+2025-12-01,IRQ,Iraq,9.26
+2025-12-01,ISL,Iceland,1.97
+2025-12-01,ISR,Israel,12.03
+2025-12-01,ITA,Italy,78.45
+2025-12-01,JAM,Jamaica,8.32
+2025-12-01,JOR,Jordan,3.45
+2025-12-01,JPN,Japan,732.84
+2025-12-01,KAZ,Kazakhstan,3.65
+2025-12-01,KEN,Kenya,5.77
+2025-12-01,KHM,Cambodia,4.03
+2025-12-01,KIR,Kiribati,0.32
+2025-12-01,KNA,St.  Kitts and Nevis,0.65
+2025-12-01,KOR,Korea,162.16
+2025-12-01,KWT,Kuwait,6.58
+2025-12-01,LBN,Lebanon,3.77
+2025-12-01,LBR,Liberia,1.71
+2025-12-01,LBY,Libya,6.39
+2025-12-01,LCA,St.  Lucia,2.06
+2025-12-01,LKA,Sri Lanka,13.06
+2025-12-01,LTU,Lithuania,8.29
+2025-12-01,LVA,Latvia,9.26
+2025-12-01,MAC,Macao SAR,1.26
+2025-12-01,MAF,Saint Martin,0.39
+2025-12-01,MAR,Morocco,28.26
+2025-12-01,MDA,Moldova,1.23
+2025-12-01,MDG,Madagascar,1.97
+2025-12-01,MDV,Maldives,2.06
+2025-12-01,MEX,Mexico,34.29
+2025-12-01,MHL,Marshall Islands,0.42
+2025-12-01,MLT,Malta,10.65
+2025-12-01,MMR,Myanmar,3.87
+2025-12-01,MNE,Montenegro,0.55
+2025-12-01,MNP,Northern Mariana Islands,0.39
+2025-12-01,MOZ,Mozambique,6.55
+2025-12-01,MRT,Mauritania,2.61
+2025-12-01,MSR,Montserrat,0.29
+2025-12-01,MTQ,Martinique,1.58
+2025-12-01,MUS,Mauritius,2.94
+2025-12-01,MYS,Malaysia,108.84
+2025-12-01,MYT,Mayotte,0.32
+2025-12-01,NAM,Namibia,2.0
+2025-12-01,NCL,New Caledonia,1.55
+2025-12-01,NGA,Nigeria,13.94
+2025-12-01,NIC,Nicaragua,1.55
+2025-12-01,NLD,The Netherlands,140.32
+2025-12-01,NOR,Norway,69.77
+2025-12-01,NRU,Nauru,0.16
+2025-12-01,NZL,New Zealand,16.16
+2025-12-01,OMN,Oman,10.13
+2025-12-01,PAK,Pakistan,4.32
+2025-12-01,PAN,Panama,28.74
+2025-12-01,PER,Peru,15.84
+2025-12-01,PHL,Philippines,44.39
+2025-12-01,PLW,Palau,0.13
+2025-12-01,PNG,Papua New Guinea,7.74
+2025-12-01,POL,Poland,23.52
+2025-12-01,PRI,Puerto Rico,3.58
+2025-12-01,PRT,Portugal,24.26
+2025-12-01,PYF,French Polynesia,2.0
+2025-12-01,QAT,Qatar,6.97
+2025-12-01,REU,Réunion,1.39
+2025-12-01,ROU,Romania,12.03
+2025-12-01,RUS,Russian Federation,68.81
+2025-12-01,SAU,Saudi Arabia,29.16
+2025-12-01,SDN,Sudan,1.87
+2025-12-01,SEN,Senegal,4.65
+2025-12-01,SGP,Singapore,141.52
+2025-12-01,SLB,Solomon Islands,1.03
+2025-12-01,SLE,Sierra Leone,2.74
+2025-12-01,SLV,El Salvador,1.1
+2025-12-01,SOM,Somalia,1.94
+2025-12-01,STP,São Tomé and Príncipe,0.13
+2025-12-01,SUR,Suriname,1.81
+2025-12-01,SVN,Slovenia,4.23
+2025-12-01,SWE,Sweden,43.13
+2025-12-01,SXM,Sint Maarten,2.32
+2025-12-01,SYC,Seychelles,0.39
+2025-12-01,SYR,Syria,1.84
+2025-12-01,TCA,Turks and Caicos Islands,0.68
+2025-12-01,TGO,Togo,4.26
+2025-12-01,THA,Thailand,70.48
+2025-12-01,TKM,Turkmenistan,0.84
+2025-12-01,TLS,Timor-Leste,0.06
+2025-12-01,TON,Tonga,0.81
+2025-12-01,TTO,Trinidad and Tobago,8.26
+2025-12-01,TUN,Tunisia,7.45
+2025-12-01,TUR,Türkiye,131.81
+2025-12-01,TUV,Tuvalu,0.1
+2025-12-01,TWN,Taiwan Province of China,55.32
+2025-12-01,TZA,Tanzania,5.03
+2025-12-01,UKR,Ukraine,4.19
+2025-12-01,URY,Uruguay,4.52
+2025-12-01,USA,United States,188.77
+2025-12-01,VCT,St.  Vincent and the Grenadines,0.94
+2025-12-01,VEN,Venezuela,6.0
+2025-12-01,VGB,British Virgin Islands,0.65
+2025-12-01,VIR,United States Virgin Islands,4.13
+2025-12-01,VNM,Vietnam,109.26
+2025-12-01,VUT,Vanuatu,0.55
+2025-12-01,WSM,Samoa,0.65
+2025-12-01,YEM,Yemen,2.58
+2025-12-01,ZAF,South Africa,20.0
+2026-01-01,ABW,Aruba,1.26
+2026-01-01,AGO,Angola,6.19
+2026-01-01,AIA,Anguilla,0.29
+2026-01-01,ALB,Albania,2.16
+2026-01-01,ARE,United Arab Emirates,77.32
+2026-01-01,ARG,Argentina,24.87
+2026-01-01,ASM,American Samoa,0.45
+2026-01-01,ATG,Antigua and Barbuda,0.9
+2026-01-01,AUS,Australia,71.58
+2026-01-01,AZE,Azerbaijan,4.68
+2026-01-01,BEL,Belgium,82.84
+2026-01-01,BEN,Benin,2.13
+2026-01-01,BES,"Bonaire,  Saint Eustatius and Saba",1.06
+2026-01-01,BGD,Bangladesh,6.74
+2026-01-01,BGR,Bulgaria,5.71
+2026-01-01,BHR,Bahrain,4.48
+2026-01-01,BHS,The Bahamas,6.29
+2026-01-01,BLM,Saint-Barthélemy,0.35
+2026-01-01,BLZ,Belize,0.94
+2026-01-01,BRA,Brazil,88.29
+2026-01-01,BRB,Barbados,1.81
+2026-01-01,BRN,Brunei Darussalam,2.71
+2026-01-01,CAN,Canada,30.0
+2026-01-01,CHL,Chile,20.81
+2026-01-01,CHN,China,749.39
+2026-01-01,CIV,Côte d'Ivoire,6.81
+2026-01-01,CMR,Cameroon,3.74
+2026-01-01,COD,Democratic Republic of the Congo,1.97
+2026-01-01,COG,Republic of Congo,3.0
+2026-01-01,COK,Cook Islands,0.16
+2026-01-01,COL,Colombia,21.68
+2026-01-01,COM,Comoros,0.35
+2026-01-01,CPV,Cabo Verde,3.29
+2026-01-01,CRI,Costa Rica,5.39
+2026-01-01,CUB,Cuba,2.06
+2026-01-01,CUW,Curaçao,1.52
+2026-01-01,CYM,Cayman Islands,0.77
+2026-01-01,CYP,Cyprus,6.39
+2026-01-01,DEU,Germany,60.13
+2026-01-01,DJI,Djibouti,3.45
+2026-01-01,DMA,Dominica,0.81
+2026-01-01,DNK,Denmark,29.55
+2026-01-01,DOM,Dominican Republic,9.26
+2026-01-01,DZA,Algeria,11.48
+2026-01-01,ECU,Ecuador,10.03
+2026-01-01,EGY,Egypt,28.71
+2026-01-01,ERI,Eritrea,0.42
+2026-01-01,ESP,Spain,106.97
+2026-01-01,EST,Estonia,5.81
+2026-01-01,FIN,Finland,25.03
+2026-01-01,FJI,Fiji,2.42
+2026-01-01,FRA,France,48.13
+2026-01-01,FRO,Faroe Islands,0.58
+2026-01-01,FSM,Micronesia,0.52
+2026-01-01,GAB,Gabon,2.87
+2026-01-01,GBR,United Kingdom,95.87
+2026-01-01,GEO,Georgia,4.06
+2026-01-01,GHA,Ghana,5.97
+2026-01-01,GIB,Gibraltar,3.03
+2026-01-01,GIN,Guinea,4.77
+2026-01-01,GLP,Guadeloupe,2.16
+2026-01-01,GMB,The Gambia,0.68
+2026-01-01,GNB,Guinea-Bissau,0.26
+2026-01-01,GNQ,Equatorial Guinea,2.03
+2026-01-01,GRC,Greece,36.03
+2026-01-01,GRD,Grenada,1.29
+2026-01-01,GTM,Guatemala,8.94
+2026-01-01,GUF,French Guiana,0.58
+2026-01-01,GUM,Guam,0.77
+2026-01-01,GUY,Guyana,7.61
+2026-01-01,HKG,Hong Kong SAR,42.35
+2026-01-01,HND,Honduras,4.71
+2026-01-01,HRV,Croatia,2.32
+2026-01-01,HTI,Haiti,2.1
+2026-01-01,IDN,Indonesia,194.1
+2026-01-01,IND,India,61.03
+2026-01-01,IRL,Ireland,11.68
+2026-01-01,IRN,Iran,6.81
+2026-01-01,IRQ,Iraq,9.39
+2026-01-01,ISL,Iceland,1.9
+2026-01-01,ISR,Israel,11.74
+2026-01-01,ITA,Italy,73.42
+2026-01-01,JAM,Jamaica,8.52
+2026-01-01,JOR,Jordan,3.23
+2026-01-01,JPN,Japan,709.03
+2026-01-01,KAZ,Kazakhstan,3.26
+2026-01-01,KEN,Kenya,5.29
+2026-01-01,KHM,Cambodia,3.94
+2026-01-01,KIR,Kiribati,0.19
+2026-01-01,KNA,St.  Kitts and Nevis,0.71
+2026-01-01,KOR,Korea,156.65
+2026-01-01,KWT,Kuwait,7.03
+2026-01-01,LBN,Lebanon,3.65
+2026-01-01,LBR,Liberia,1.55
+2026-01-01,LBY,Libya,6.29
+2026-01-01,LCA,St.  Lucia,2.23
+2026-01-01,LKA,Sri Lanka,12.13
+2026-01-01,LTU,Lithuania,8.45
+2026-01-01,LVA,Latvia,10.0
+2026-01-01,MAC,Macao SAR,1.06
+2026-01-01,MAF,Saint Martin,0.42
+2026-01-01,MAR,Morocco,25.81
+2026-01-01,MDA,Moldova,1.13
+2026-01-01,MDG,Madagascar,2.0
+2026-01-01,MDV,Maldives,1.9
+2026-01-01,MEX,Mexico,34.26
+2026-01-01,MHL,Marshall Islands,0.39
+2026-01-01,MLT,Malta,9.23
+2026-01-01,MMR,Myanmar,4.61
+2026-01-01,MNE,Montenegro,0.45
+2026-01-01,MNP,Northern Mariana Islands,0.42
+2026-01-01,MOZ,Mozambique,6.29
+2026-01-01,MRT,Mauritania,2.74
+2026-01-01,MSR,Montserrat,0.29
+2026-01-01,MTQ,Martinique,1.55
+2026-01-01,MUS,Mauritius,2.58
+2026-01-01,MYS,Malaysia,109.35
+2026-01-01,MYT,Mayotte,0.29
+2026-01-01,NAM,Namibia,2.32
+2026-01-01,NCL,New Caledonia,1.32
+2026-01-01,NGA,Nigeria,11.68
+2026-01-01,NIC,Nicaragua,1.74
+2026-01-01,NLD,The Netherlands,139.74
+2026-01-01,NOR,Norway,69.84
+2026-01-01,NRU,Nauru,0.13
+2026-01-01,NZL,New Zealand,13.55
+2026-01-01,OMN,Oman,11.74
+2026-01-01,PAK,Pakistan,5.1
+2026-01-01,PAN,Panama,29.13
+2026-01-01,PER,Peru,16.0
+2026-01-01,PHL,Philippines,48.39
+2026-01-01,PLW,Palau,0.1
+2026-01-01,PNG,Papua New Guinea,7.97
+2026-01-01,POL,Poland,20.81
+2026-01-01,PRI,Puerto Rico,3.58
+2026-01-01,PRT,Portugal,19.26
+2026-01-01,PYF,French Polynesia,1.87
+2026-01-01,QAT,Qatar,7.9
+2026-01-01,REU,Réunion,1.1
+2026-01-01,ROU,Romania,8.97
+2026-01-01,RUS,Russian Federation,58.45
+2026-01-01,SAU,Saudi Arabia,30.87
+2026-01-01,SDN,Sudan,2.39
+2026-01-01,SEN,Senegal,4.42
+2026-01-01,SGP,Singapore,145.55
+2026-01-01,SLB,Solomon Islands,1.19
+2026-01-01,SLE,Sierra Leone,1.87
+2026-01-01,SLV,El Salvador,1.58
+2026-01-01,SOM,Somalia,2.0
+2026-01-01,STP,São Tomé and Príncipe,0.1
+2026-01-01,SUR,Suriname,2.13
+2026-01-01,SVN,Slovenia,4.13
+2026-01-01,SWE,Sweden,43.55
+2026-01-01,SXM,Sint Maarten,2.0
+2026-01-01,SYC,Seychelles,0.58
+2026-01-01,SYR,Syria,1.97
+2026-01-01,TCA,Turks and Caicos Islands,1.03
+2026-01-01,TGO,Togo,3.97
+2026-01-01,THA,Thailand,67.03
+2026-01-01,TKM,Turkmenistan,1.19
+2026-01-01,TLS,Timor-Leste,0.03
+2026-01-01,TON,Tonga,0.61
+2026-01-01,TTO,Trinidad and Tobago,8.29
+2026-01-01,TUN,Tunisia,6.94
+2026-01-01,TUR,Türkiye,121.71
+2026-01-01,TUV,Tuvalu,0.1
+2026-01-01,TWN,Taiwan Province of China,55.23
+2026-01-01,TZA,Tanzania,5.26
+2026-01-01,UKR,Ukraine,6.87
+2026-01-01,URY,Uruguay,4.35
+2026-01-01,USA,United States,183.48
+2026-01-01,VCT,St.  Vincent and the Grenadines,1.19
+2026-01-01,VEN,Venezuela,6.65
+2026-01-01,VGB,British Virgin Islands,0.48
+2026-01-01,VIR,United States Virgin Islands,4.06
+2026-01-01,VNM,Vietnam,106.06
+2026-01-01,VUT,Vanuatu,0.48
+2026-01-01,WSM,Samoa,0.58
+2026-01-01,YEM,Yemen,2.13
+2026-01-01,ZAF,South Africa,21.16
+2026-02-01,ABW,Aruba,1.07
+2026-02-01,AGO,Angola,5.68
+2026-02-01,AIA,Anguilla,0.29
+2026-02-01,ALB,Albania,1.82
+2026-02-01,ARE,United Arab Emirates,84.07
+2026-02-01,ARG,Argentina,21.32
+2026-02-01,ASM,American Samoa,0.29
+2026-02-01,ATG,Antigua and Barbuda,0.86
+2026-02-01,AUS,Australia,72.96
+2026-02-01,AZE,Azerbaijan,5.5
+2026-02-01,BEL,Belgium,86.93
+2026-02-01,BEN,Benin,2.21
+2026-02-01,BES,"Bonaire,  Saint Eustatius and Saba",1.36
+2026-02-01,BGD,Bangladesh,6.32
+2026-02-01,BGR,Bulgaria,4.89
+2026-02-01,BHR,Bahrain,4.96
+2026-02-01,BHS,The Bahamas,6.25
+2026-02-01,BLM,Saint-Barthélemy,0.36
+2026-02-01,BLZ,Belize,0.75
+2026-02-01,BRA,Brazil,89.39
+2026-02-01,BRB,Barbados,1.82
+2026-02-01,BRN,Brunei Darussalam,3.21
+2026-02-01,CAN,Canada,28.89
+2026-02-01,CHL,Chile,20.43
+2026-02-01,CHN,China,706.57
+2026-02-01,CIV,Côte d'Ivoire,6.39
+2026-02-01,CMR,Cameroon,3.82
+2026-02-01,COD,Democratic Republic of the Congo,2.04
+2026-02-01,COG,Republic of Congo,3.82
+2026-02-01,COK,Cook Islands,0.14
+2026-02-01,COL,Colombia,22.54
+2026-02-01,COM,Comoros,0.57
+2026-02-01,CPV,Cabo Verde,4.36
+2026-02-01,CRI,Costa Rica,5.0
+2026-02-01,CUB,Cuba,2.5
+2026-02-01,CUW,Curaçao,1.36
+2026-02-01,CYM,Cayman Islands,0.93
+2026-02-01,CYP,Cyprus,7.32
+2026-02-01,DEU,Germany,66.54
+2026-02-01,DJI,Djibouti,3.57
+2026-02-01,DMA,Dominica,0.89
+2026-02-01,DNK,Denmark,30.86
+2026-02-01,DOM,Dominican Republic,9.61
+2026-02-01,DZA,Algeria,17.21
+2026-02-01,ECU,Ecuador,10.0
+2026-02-01,EGY,Egypt,29.11
+2026-02-01,ERI,Eritrea,0.25
+2026-02-01,ESP,Spain,126.61
+2026-02-01,EST,Estonia,5.46
+2026-02-01,FIN,Finland,25.89
+2026-02-01,FJI,Fiji,2.75
+2026-02-01,FRA,France,55.68
+2026-02-01,FRO,Faroe Islands,0.39
+2026-02-01,FSM,Micronesia,0.71
+2026-02-01,GAB,Gabon,2.79
+2026-02-01,GBR,United Kingdom,110.32
+2026-02-01,GEO,Georgia,3.43
+2026-02-01,GHA,Ghana,5.39
+2026-02-01,GIB,Gibraltar,3.04
+2026-02-01,GIN,Guinea,4.43
+2026-02-01,GLP,Guadeloupe,1.86
+2026-02-01,GMB,The Gambia,0.54
+2026-02-01,GNB,Guinea-Bissau,0.25
+2026-02-01,GNQ,Equatorial Guinea,1.89
+2026-02-01,GRC,Greece,37.21
+2026-02-01,GRD,Grenada,1.11
+2026-02-01,GTM,Guatemala,8.32
+2026-02-01,GUF,French Guiana,0.46
+2026-02-01,GUM,Guam,0.86
+2026-02-01,GUY,Guyana,7.36
+2026-02-01,HKG,Hong Kong SAR,39.79
+2026-02-01,HND,Honduras,5.61
+2026-02-01,HRV,Croatia,2.86
+2026-02-01,HTI,Haiti,1.21
+2026-02-01,IDN,Indonesia,196.04
+2026-02-01,IND,India,64.68
+2026-02-01,IRL,Ireland,13.21
+2026-02-01,IRN,Iran,17.07
+2026-02-01,IRQ,Iraq,10.64
+2026-02-01,ISL,Iceland,2.14
+2026-02-01,ISR,Israel,12.14
+2026-02-01,ITA,Italy,80.82
+2026-02-01,JAM,Jamaica,9.21
+2026-02-01,JOR,Jordan,3.79
+2026-02-01,JPN,Japan,765.89
+2026-02-01,KAZ,Kazakhstan,3.29
+2026-02-01,KEN,Kenya,5.14
+2026-02-01,KHM,Cambodia,4.25
+2026-02-01,KIR,Kiribati,0.25
+2026-02-01,KNA,St.  Kitts and Nevis,1.07
+2026-02-01,KOR,Korea,158.46
+2026-02-01,KWT,Kuwait,7.54
+2026-02-01,LBN,Lebanon,4.61
+2026-02-01,LBR,Liberia,1.82
+2026-02-01,LBY,Libya,7.18
+2026-02-01,LCA,St.  Lucia,2.18
+2026-02-01,LKA,Sri Lanka,12.5
+2026-02-01,LTU,Lithuania,8.11
+2026-02-01,LVA,Latvia,9.5
+2026-02-01,MAC,Macao SAR,0.89
+2026-02-01,MAF,Saint Martin,0.25
+2026-02-01,MAR,Morocco,29.96
+2026-02-01,MDA,Moldova,1.39
+2026-02-01,MDG,Madagascar,2.21
+2026-02-01,MDV,Maldives,1.82
+2026-02-01,MEX,Mexico,33.75
+2026-02-01,MHL,Marshall Islands,0.36
+2026-02-01,MLT,Malta,10.11
+2026-02-01,MMR,Myanmar,4.21
+2026-02-01,MNE,Montenegro,0.75
+2026-02-01,MNP,Northern Mariana Islands,0.64
+2026-02-01,MOZ,Mozambique,6.71
+2026-02-01,MRT,Mauritania,2.5
+2026-02-01,MSR,Montserrat,0.54
+2026-02-01,MTQ,Martinique,1.43
+2026-02-01,MUS,Mauritius,2.61
+2026-02-01,MYS,Malaysia,109.0
+2026-02-01,MYT,Mayotte,0.32
+2026-02-01,NAM,Namibia,2.11
+2026-02-01,NCL,New Caledonia,1.75
+2026-02-01,NGA,Nigeria,10.79
+2026-02-01,NIC,Nicaragua,1.75
+2026-02-01,NLD,The Netherlands,150.46
+2026-02-01,NOR,Norway,71.21
+2026-02-01,NRU,Nauru,0.18
+2026-02-01,NZL,New Zealand,17.04
+2026-02-01,OMN,Oman,11.71
+2026-02-01,PAK,Pakistan,4.5
+2026-02-01,PAN,Panama,28.61
+2026-02-01,PER,Peru,15.07
+2026-02-01,PHL,Philippines,49.82
+2026-02-01,PLW,Palau,0.14
+2026-02-01,PNG,Papua New Guinea,7.43
+2026-02-01,POL,Poland,21.11
+2026-02-01,PRI,Puerto Rico,3.57
+2026-02-01,PRT,Portugal,24.75
+2026-02-01,PYF,French Polynesia,1.36
+2026-02-01,QAT,Qatar,11.43
+2026-02-01,REU,Réunion,1.29
+2026-02-01,ROU,Romania,8.71
+2026-02-01,RUS,Russian Federation,60.32
+2026-02-01,SAU,Saudi Arabia,35.0
+2026-02-01,SDN,Sudan,1.5
+2026-02-01,SEN,Senegal,3.96
+2026-02-01,SGP,Singapore,144.11
+2026-02-01,SLB,Solomon Islands,0.93
+2026-02-01,SLE,Sierra Leone,2.0
+2026-02-01,SLV,El Salvador,1.71
+2026-02-01,SOM,Somalia,2.18
+2026-02-01,STP,São Tomé and Príncipe,0.18
+2026-02-01,SUR,Suriname,1.96
+2026-02-01,SVN,Slovenia,3.68
+2026-02-01,SWE,Sweden,43.36
+2026-02-01,SXM,Sint Maarten,2.57
+2026-02-01,SYC,Seychelles,0.5
+2026-02-01,SYR,Syria,2.46
+2026-02-01,TCA,Turks and Caicos Islands,1.21
+2026-02-01,TGO,Togo,3.96
+2026-02-01,THA,Thailand,76.43
+2026-02-01,TKM,Turkmenistan,1.71
+2026-02-01,TLS,Timor-Leste,0.11
+2026-02-01,TON,Tonga,0.61
+2026-02-01,TTO,Trinidad and Tobago,7.64
+2026-02-01,TUN,Tunisia,7.71
+2026-02-01,TUR,Türkiye,121.68
+2026-02-01,TUV,Tuvalu,0.11
+2026-02-01,TWN,Taiwan Province of China,52.04
+2026-02-01,TZA,Tanzania,5.39
+2026-02-01,UKR,Ukraine,7.5
+2026-02-01,URY,Uruguay,4.64
+2026-02-01,USA,United States,180.36
+2026-02-01,VCT,St.  Vincent and the Grenadines,1.14
+2026-02-01,VEN,Venezuela,7.14
+2026-02-01,VGB,British Virgin Islands,0.79
+2026-02-01,VIR,United States Virgin Islands,4.18
+2026-02-01,VNM,Vietnam,97.61
+2026-02-01,VUT,Vanuatu,0.54
+2026-02-01,WSM,Samoa,0.54
+2026-02-01,YEM,Yemen,2.21
+2026-02-01,ZAF,South Africa,20.71
+2026-03-01,ABW,Aruba,1.26
+2026-03-01,AGO,Angola,6.29
+2026-03-01,AIA,Anguilla,0.39
+2026-03-01,ALB,Albania,2.32
+2026-03-01,ARE,United Arab Emirates,16.97
+2026-03-01,ARG,Argentina,25.81
+2026-03-01,ASM,American Samoa,0.39
+2026-03-01,ATG,Antigua and Barbuda,0.97
+2026-03-01,AUS,Australia,71.0
+2026-03-01,AZE,Azerbaijan,6.29
+2026-03-01,BEL,Belgium,87.06
+2026-03-01,BEN,Benin,2.0
+2026-03-01,BES,"Bonaire,  Saint Eustatius and Saba",1.52
+2026-03-01,BGD,Bangladesh,7.1
+2026-03-01,BGR,Bulgaria,5.68
+2026-03-01,BHR,Bahrain,1.1
+2026-03-01,BHS,The Bahamas,6.55
+2026-03-01,BLM,Saint-Barthélemy,0.42
+2026-03-01,BLZ,Belize,0.9
+2026-03-01,BRA,Brazil,97.84
+2026-03-01,BRB,Barbados,1.77
+2026-03-01,BRN,Brunei Darussalam,2.26
+2026-03-01,CAN,Canada,30.52
+2026-03-01,CHL,Chile,19.39
+2026-03-01,CHN,China,741.58
+2026-03-01,CIV,Côte d'Ivoire,6.65
+2026-03-01,CMR,Cameroon,4.13
+2026-03-01,COD,Democratic Republic of the Congo,2.35
+2026-03-01,COG,Republic of Congo,3.55
+2026-03-01,COK,Cook Islands,0.23
+2026-03-01,COL,Colombia,22.55
+2026-03-01,COM,Comoros,0.52
+2026-03-01,CPV,Cabo Verde,3.97
+2026-03-01,CRI,Costa Rica,5.39
+2026-03-01,CUB,Cuba,2.55
+2026-03-01,CUW,Curaçao,1.52
+2026-03-01,CYM,Cayman Islands,0.87
+2026-03-01,CYP,Cyprus,7.65
+2026-03-01,DEU,Germany,69.29
+2026-03-01,DJI,Djibouti,3.9
+2026-03-01,DMA,Dominica,0.52
+2026-03-01,DNK,Denmark,29.39
+2026-03-01,DOM,Dominican Republic,9.97
+2026-03-01,DZA,Algeria,15.71
+2026-03-01,ECU,Ecuador,9.48
+2026-03-01,EGY,Egypt,28.97
+2026-03-01,ERI,Eritrea,0.26
+2026-03-01,ESP,Spain,125.52
+2026-03-01,EST,Estonia,6.03
+2026-03-01,FIN,Finland,27.74
+2026-03-01,FJI,Fiji,2.26
+2026-03-01,FRA,France,54.58
+2026-03-01,FRO,Faroe Islands,0.48
+2026-03-01,FSM,Micronesia,0.61
+2026-03-01,GAB,Gabon,2.23
+2026-03-01,GBR,United Kingdom,110.9
+2026-03-01,GEO,Georgia,3.84
+2026-03-01,GHA,Ghana,6.23
+2026-03-01,GIB,Gibraltar,3.65
+2026-03-01,GIN,Guinea,5.13
+2026-03-01,GLP,Guadeloupe,2.19
+2026-03-01,GMB,The Gambia,0.68
+2026-03-01,GNB,Guinea-Bissau,0.13
+2026-03-01,GNQ,Equatorial Guinea,1.97
+2026-03-01,GRC,Greece,43.0
+2026-03-01,GRD,Grenada,1.03
+2026-03-01,GTM,Guatemala,9.39
+2026-03-01,GUF,French Guiana,0.61
+2026-03-01,GUM,Guam,0.87
+2026-03-01,GUY,Guyana,7.48
+2026-03-01,HKG,Hong Kong SAR,41.48
+2026-03-01,HND,Honduras,5.1
+2026-03-01,HRV,Croatia,3.32
+2026-03-01,HTI,Haiti,2.16
+2026-03-01,IDN,Indonesia,182.77
+2026-03-01,IND,India,59.61
+2026-03-01,IRL,Ireland,14.35
+2026-03-01,IRN,Iran,11.71
+2026-03-01,IRQ,Iraq,3.87
+2026-03-01,ISL,Iceland,2.35
+2026-03-01,ISR,Israel,9.29
+2026-03-01,ITA,Italy,82.58
+2026-03-01,JAM,Jamaica,8.71
+2026-03-01,JOR,Jordan,3.13
+2026-03-01,JPN,Japan,750.58
+2026-03-01,KAZ,Kazakhstan,3.32
+2026-03-01,KEN,Kenya,5.9
+2026-03-01,KHM,Cambodia,3.94
+2026-03-01,KIR,Kiribati,0.19
+2026-03-01,KNA,St.  Kitts and Nevis,0.81
+2026-03-01,KOR,Korea,155.94
+2026-03-01,KWT,Kuwait,2.32
+2026-03-01,LBN,Lebanon,2.9
+2026-03-01,LBR,Liberia,1.45
+2026-03-01,LBY,Libya,6.26
+2026-03-01,LCA,St.  Lucia,2.26
+2026-03-01,LKA,Sri Lanka,13.26
+2026-03-01,LTU,Lithuania,8.9
+2026-03-01,LVA,Latvia,9.71
+2026-03-01,MAC,Macao SAR,0.74
+2026-03-01,MAF,Saint Martin,0.52
+2026-03-01,MAR,Morocco,29.26
+2026-03-01,MDA,Moldova,1.32
+2026-03-01,MDG,Madagascar,1.58
+2026-03-01,MDV,Maldives,2.13
+2026-03-01,MEX,Mexico,35.16
+2026-03-01,MHL,Marshall Islands,0.26
+2026-03-01,MLT,Malta,10.39
+2026-03-01,MMR,Myanmar,4.39
+2026-03-01,MNE,Montenegro,0.61
+2026-03-01,MNP,Northern Mariana Islands,0.61
+2026-03-01,MOZ,Mozambique,6.26
+2026-03-01,MRT,Mauritania,3.35
+2026-03-01,MSR,Montserrat,0.19
+2026-03-01,MTQ,Martinique,1.77
+2026-03-01,MUS,Mauritius,3.13
+2026-03-01,MYS,Malaysia,108.29
+2026-03-01,MYT,Mayotte,0.29
+2026-03-01,NAM,Namibia,2.42
+2026-03-01,NCL,New Caledonia,1.26
+2026-03-01,NGA,Nigeria,11.19
+2026-03-01,NIC,Nicaragua,1.87
+2026-03-01,NLD,The Netherlands,152.03
+2026-03-01,NOR,Norway,74.48
+2026-03-01,NRU,Nauru,0.1
+2026-03-01,NZL,New Zealand,16.97
+2026-03-01,OMN,Oman,8.55
+2026-03-01,PAK,Pakistan,4.23
+2026-03-01,PAN,Panama,30.19
+2026-03-01,PER,Peru,14.68
+2026-03-01,PHL,Philippines,49.68
+2026-03-01,PLW,Palau,0.1
+2026-03-01,PNG,Papua New Guinea,7.29
+2026-03-01,POL,Poland,22.74
+2026-03-01,PRI,Puerto Rico,3.81
+2026-03-01,PRT,Portugal,27.42
+2026-03-01,PYF,French Polynesia,1.55
+2026-03-01,QAT,Qatar,2.94
+2026-03-01,REU,Réunion,1.32
+2026-03-01,ROU,Romania,11.1
+2026-03-01,RUS,Russian Federation,64.71
+2026-03-01,SAU,Saudi Arabia,25.55
+2026-03-01,SDN,Sudan,3.45
+2026-03-01,SEN,Senegal,4.0
+2026-03-01,SGP,Singapore,142.23
+2026-03-01,SLB,Solomon Islands,1.13
+2026-03-01,SLE,Sierra Leone,2.35
+2026-03-01,SLV,El Salvador,1.84
+2026-03-01,SOM,Somalia,1.29
+2026-03-01,STP,São Tomé and Príncipe,0.23
+2026-03-01,SUR,Suriname,1.94
+2026-03-01,SVN,Slovenia,4.23
+2026-03-01,SWE,Sweden,47.03
+2026-03-01,SXM,Sint Maarten,2.16
+2026-03-01,SYC,Seychelles,0.61
+2026-03-01,SYR,Syria,2.58
+2026-03-01,TCA,Turks and Caicos Islands,1.19
+2026-03-01,TGO,Togo,3.71
+2026-03-01,THA,Thailand,75.58
+2026-03-01,TKM,Turkmenistan,2.06
+2026-03-01,TLS,Timor-Leste,0.1
+2026-03-01,TON,Tonga,0.74
+2026-03-01,TTO,Trinidad and Tobago,7.29
+2026-03-01,TUN,Tunisia,7.35
+2026-03-01,TUR,Türkiye,127.03
+2026-03-01,TUV,Tuvalu,0.16
+2026-03-01,TWN,Taiwan Province of China,56.23
+2026-03-01,TZA,Tanzania,5.26
+2026-03-01,UKR,Ukraine,9.39
+2026-03-01,URY,Uruguay,5.06
+2026-03-01,USA,United States,197.52
+2026-03-01,VCT,St.  Vincent and the Grenadines,1.29
+2026-03-01,VEN,Venezuela,6.74
+2026-03-01,VGB,British Virgin Islands,0.74
+2026-03-01,VIR,United States Virgin Islands,4.23
+2026-03-01,VNM,Vietnam,106.65
+2026-03-01,VUT,Vanuatu,0.48
+2026-03-01,WSM,Samoa,0.55
+2026-03-01,YEM,Yemen,2.35
+2026-03-01,ZAF,South Africa,22.1
+2026-04-01,ABW,Aruba,1.13
+2026-04-01,AGO,Angola,5.67
+2026-04-01,AIA,Anguilla,0.3
+2026-04-01,ALB,Albania,2.77
+2026-04-01,ARE,United Arab Emirates,26.1
+2026-04-01,ARG,Argentina,25.13
+2026-04-01,ASM,American Samoa,0.37
+2026-04-01,ATG,Antigua and Barbuda,1.0
+2026-04-01,AUS,Australia,73.67
+2026-04-01,AZE,Azerbaijan,6.0
+2026-04-01,BEL,Belgium,86.1
+2026-04-01,BEN,Benin,2.3
+2026-04-01,BES,"Bonaire,  Saint Eustatius and Saba",1.53
+2026-04-01,BGD,Bangladesh,6.43
+2026-04-01,BGR,Bulgaria,5.73
+2026-04-01,BHR,Bahrain,1.33
+2026-04-01,BHS,The Bahamas,7.27
+2026-04-01,BLM,Saint-Barthélemy,0.57
+2026-04-01,BLZ,Belize,0.9
+2026-04-01,BRA,Brazil,97.2
+2026-04-01,BRB,Barbados,1.83
+2026-04-01,BRN,Brunei Darussalam,2.77
+2026-04-01,CAN,Canada,36.97
+2026-04-01,CHL,Chile,20.1
+2026-04-01,CHN,China,735.8
+2026-04-01,CIV,Côte d'Ivoire,6.53
+2026-04-01,CMR,Cameroon,4.1
+2026-04-01,COD,Democratic Republic of the Congo,2.07
+2026-04-01,COG,Republic of Congo,3.27
+2026-04-01,COK,Cook Islands,0.2
+2026-04-01,COL,Colombia,21.77
+2026-04-01,COM,Comoros,0.5
+2026-04-01,CPV,Cabo Verde,4.17
+2026-04-01,CRI,Costa Rica,5.2
+2026-04-01,CUB,Cuba,2.5
+2026-04-01,CUW,Curaçao,1.4
+2026-04-01,CYM,Cayman Islands,0.77
+2026-04-01,CYP,Cyprus,7.9
+2026-04-01,DEU,Germany,70.57
+2026-04-01,DJI,Djibouti,3.83
+2026-04-01,DMA,Dominica,0.7
+2026-04-01,DNK,Denmark,31.27
+2026-04-01,DOM,Dominican Republic,9.9
+2026-04-01,DZA,Algeria,19.1
+2026-04-01,ECU,Ecuador,10.27
+2026-04-01,EGY,Egypt,32.23
+2026-04-01,ERI,Eritrea,0.3
+2026-04-01,ESP,Spain,126.67
+2026-04-01,EST,Estonia,6.13
+2026-04-01,FIN,Finland,27.03
+2026-04-01,FJI,Fiji,2.13
+2026-04-01,FRA,France,56.3
+2026-04-01,FRO,Faroe Islands,1.07
+2026-04-01,FSM,Micronesia,0.6
+2026-04-01,GAB,Gabon,3.07
+2026-04-01,GBR,United Kingdom,110.03
+2026-04-01,GEO,Georgia,3.93
+2026-04-01,GHA,Ghana,5.37
+2026-04-01,GIB,Gibraltar,3.33
+2026-04-01,GIN,Guinea,4.57
+2026-04-01,GLP,Guadeloupe,2.07
+2026-04-01,GMB,The Gambia,0.5
+2026-04-01,GNB,Guinea-Bissau,0.23
+2026-04-01,GNQ,Equatorial Guinea,2.13
+2026-04-01,GRC,Greece,40.77
+2026-04-01,GRD,Grenada,1.37
+2026-04-01,GTM,Guatemala,9.33
+2026-04-01,GUF,French Guiana,0.63
+2026-04-01,GUM,Guam,0.63
+2026-04-01,GUY,Guyana,8.1
+2026-04-01,HKG,Hong Kong SAR,41.6
+2026-04-01,HND,Honduras,5.13
+2026-04-01,HRV,Croatia,2.93
+2026-04-01,HTI,Haiti,2.23
+2026-04-01,IDN,Indonesia,193.97
+2026-04-01,IND,India,78.6
+2026-04-01,IRL,Ireland,14.87
+2026-04-01,IRN,Iran,6.6
+2026-04-01,IRQ,Iraq,3.7
+2026-04-01,ISL,Iceland,2.73
+2026-04-01,ISR,Israel,10.63
+2026-04-01,ITA,Italy,85.93
+2026-04-01,JAM,Jamaica,9.2
+2026-04-01,JOR,Jordan,3.1
+2026-04-01,JPN,Japan,720.13
+2026-04-01,KAZ,Kazakhstan,4.13
+2026-04-01,KEN,Kenya,4.93
+2026-04-01,KHM,Cambodia,4.0
+2026-04-01,KIR,Kiribati,0.17
+2026-04-01,KNA,St.  Kitts and Nevis,0.77
+2026-04-01,KOR,Korea,148.6
+2026-04-01,KWT,Kuwait,0.13
+2026-04-01,LBN,Lebanon,4.13
+2026-04-01,LBR,Liberia,1.57
+2026-04-01,LBY,Libya,7.47
+2026-04-01,LCA,St.  Lucia,1.97
+2026-04-01,LKA,Sri Lanka,14.17
+2026-04-01,LTU,Lithuania,8.57
+2026-04-01,LVA,Latvia,9.87
+2026-04-01,MAC,Macao SAR,0.7
+2026-04-01,MAF,Saint Martin,0.5
+2026-04-01,MAR,Morocco,28.47
+2026-04-01,MDA,Moldova,1.27
+2026-04-01,MDG,Madagascar,2.1
+2026-04-01,MDV,Maldives,2.47
+2026-04-01,MEX,Mexico,35.07
+2026-04-01,MHL,Marshall Islands,0.43
+2026-04-01,MLT,Malta,10.17
+2026-04-01,MMR,Myanmar,4.0
+2026-04-01,MNE,Montenegro,0.7
+2026-04-01,MNP,Northern Mariana Islands,0.27
+2026-04-01,MOZ,Mozambique,6.53
+2026-04-01,MRT,Mauritania,2.67
+2026-04-01,MSR,Montserrat,0.23
+2026-04-01,MTQ,Martinique,1.73
+2026-04-01,MUS,Mauritius,2.9
+2026-04-01,MYS,Malaysia,107.2
+2026-04-01,MYT,Mayotte,0.43
+2026-04-01,NAM,Namibia,2.47
+2026-04-01,NCL,New Caledonia,1.4
+2026-04-01,NGA,Nigeria,11.03
+2026-04-01,NIC,Nicaragua,1.7
+2026-04-01,NLD,The Netherlands,145.67
+2026-04-01,NOR,Norway,69.27
+2026-04-01,NRU,Nauru,0.23
+2026-04-01,NZL,New Zealand,15.67
+2026-04-01,OMN,Oman,13.4
+2026-04-01,PAK,Pakistan,5.47
+2026-04-01,PAN,Panama,31.9
+2026-04-01,PER,Peru,15.3
+2026-04-01,PHL,Philippines,47.6
+2026-04-01,PLW,Palau,0.03
+2026-04-01,PNG,Papua New Guinea,7.03
+2026-04-01,POL,Poland,23.27
+2026-04-01,PRI,Puerto Rico,3.5
+2026-04-01,PRT,Portugal,27.23
+2026-04-01,PYF,French Polynesia,2.17
+2026-04-01,QAT,Qatar,3.4
+2026-04-01,REU,Réunion,1.43
+2026-04-01,ROU,Romania,10.27
+2026-04-01,RUS,Russian Federation,64.67
+2026-04-01,SAU,Saudi Arabia,26.27
+2026-04-01,SDN,Sudan,2.67
+2026-04-01,SEN,Senegal,4.37
+2026-04-01,SGP,Singapore,139.67
+2026-04-01,SLB,Solomon Islands,1.03
+2026-04-01,SLE,Sierra Leone,2.33
+2026-04-01,SLV,El Salvador,1.6
+2026-04-01,SOM,Somalia,2.37
+2026-04-01,STP,São Tomé and Príncipe,0.13
+2026-04-01,SUR,Suriname,1.9
+2026-04-01,SVN,Slovenia,3.73
+2026-04-01,SWE,Sweden,45.07
+2026-04-01,SXM,Sint Maarten,2.03
+2026-04-01,SYC,Seychelles,0.67
+2026-04-01,SYR,Syria,3.77
+2026-04-01,TCA,Turks and Caicos Islands,1.13
+2026-04-01,TGO,Togo,3.77
+2026-04-01,THA,Thailand,79.43
+2026-04-01,TKM,Turkmenistan,1.73
+2026-04-01,TLS,Timor-Leste,0.1
+2026-04-01,TON,Tonga,0.63
+2026-04-01,TTO,Trinidad and Tobago,7.4
+2026-04-01,TUN,Tunisia,8.3
+2026-04-01,TUR,Türkiye,132.53
+2026-04-01,TUV,Tuvalu,0.17
+2026-04-01,TWN,Taiwan Province of China,57.47
+2026-04-01,TZA,Tanzania,5.0
+2026-04-01,UKR,Ukraine,1.97
+2026-04-01,URY,Uruguay,4.63
+2026-04-01,USA,United States,198.9
+2026-04-01,VCT,St.  Vincent and the Grenadines,1.13
+2026-04-01,VEN,Venezuela,7.3
+2026-04-01,VGB,British Virgin Islands,0.7
+2026-04-01,VIR,United States Virgin Islands,4.5
+2026-04-01,VNM,Vietnam,106.27
+2026-04-01,VUT,Vanuatu,0.6
+2026-04-01,WSM,Samoa,0.43
+2026-04-01,YEM,Yemen,2.27
+2026-04-01,ZAF,South Africa,19.7
+2026-05-01,ABW,Aruba,1.03
+2026-05-01,AGO,Angola,6.1
+2026-05-01,AIA,Anguilla,0.35
+2026-05-01,ALB,Albania,3.26
+2026-05-01,ARE,United Arab Emirates,20.9
+2026-05-01,ARG,Argentina,36.9
+2026-05-01,ASM,American Samoa,0.32
+2026-05-01,ATG,Antigua and Barbuda,0.81
+2026-05-01,AUS,Australia,75.61
+2026-05-01,AZE,Azerbaijan,6.81
+2026-05-01,BEL,Belgium,87.1
+2026-05-01,BEN,Benin,2.19
+2026-05-01,BES,"Bonaire,  Saint Eustatius and Saba",1.71
+2026-05-01,BGD,Bangladesh,7.68
+2026-05-01,BGR,Bulgaria,5.74
+2026-05-01,BHR,Bahrain,1.35
+2026-05-01,BHS,The Bahamas,7.45
+2026-05-01,BLM,Saint-Barthélemy,0.45
+2026-05-01,BLZ,Belize,0.87
+2026-05-01,BRA,Brazil,96.06
+2026-05-01,BRB,Barbados,1.61
+2026-05-01,BRN,Brunei Darussalam,2.65
+2026-05-01,CAN,Canada,40.32
+2026-05-01,CHL,Chile,19.06
+2026-05-01,CHN,China,656.65
+2026-05-01,CIV,Côte d'Ivoire,6.16
+2026-05-01,CMR,Cameroon,3.97
+2026-05-01,COD,Democratic Republic of the Congo,1.97
+2026-05-01,COG,Republic of Congo,2.87
+2026-05-01,COK,Cook Islands,0.16
+2026-05-01,COL,Colombia,22.32
+2026-05-01,COM,Comoros,0.32
+2026-05-01,CPV,Cabo Verde,4.61
+2026-05-01,CRI,Costa Rica,5.42
+2026-05-01,CUB,Cuba,2.84
+2026-05-01,CUW,Curaçao,1.52
+2026-05-01,CYM,Cayman Islands,0.84
+2026-05-01,CYP,Cyprus,8.84
+2026-05-01,DEU,Germany,73.0
+2026-05-01,DJI,Djibouti,3.58
+2026-05-01,DMA,Dominica,0.71
+2026-05-01,DNK,Denmark,30.65
+2026-05-01,DOM,Dominican Republic,11.13
+2026-05-01,DZA,Algeria,20.1
+2026-05-01,ECU,Ecuador,9.03
+2026-05-01,EGY,Egypt,30.35
+2026-05-01,ERI,Eritrea,0.26
+2026-05-01,ESP,Spain,125.87
+2026-05-01,EST,Estonia,7.74
+2026-05-01,FIN,Finland,27.26
+2026-05-01,FJI,Fiji,2.39
+2026-05-01,FRA,France,53.58
+2026-05-01,FRO,Faroe Islands,1.39
+2026-05-01,FSM,Micronesia,0.58
+2026-05-01,GAB,Gabon,2.39
+2026-05-01,GBR,United Kingdom,110.0
+2026-05-01,GEO,Georgia,4.0
+2026-05-01,GHA,Ghana,5.97
+2026-05-01,GIB,Gibraltar,3.1
+2026-05-01,GIN,Guinea,4.52
+2026-05-01,GLP,Guadeloupe,2.1
+2026-05-01,GMB,The Gambia,0.48
+2026-05-01,GNB,Guinea-Bissau,0.32
+2026-05-01,GNQ,Equatorial Guinea,1.61
+2026-05-01,GRC,Greece,48.16
+2026-05-01,GRD,Grenada,1.16
+2026-05-01,GTM,Guatemala,8.94
+2026-05-01,GUF,French Guiana,0.61
+2026-05-01,GUM,Guam,0.77
+2026-05-01,GUY,Guyana,6.65
+2026-05-01,HKG,Hong Kong SAR,41.61
+2026-05-01,HND,Honduras,5.26
+2026-05-01,HRV,Croatia,5.45
+2026-05-01,HTI,Haiti,2.26
+2026-05-01,IDN,Indonesia,205.74
+2026-05-01,IND,India,113.55
+2026-05-01,IRL,Ireland,16.0
+2026-05-01,IRN,Iran,11.29
+2026-05-01,IRQ,Iraq,3.32
+2026-05-01,ISL,Iceland,2.32
+2026-05-01,ISR,Israel,11.61
+2026-05-01,ITA,Italy,87.97
+2026-05-01,JAM,Jamaica,9.48
+2026-05-01,JOR,Jordan,3.52
+2026-05-01,JPN,Japan,725.71
+2026-05-01,KAZ,Kazakhstan,4.13
+2026-05-01,KEN,Kenya,5.84
+2026-05-01,KHM,Cambodia,4.65
+2026-05-01,KIR,Kiribati,0.13
+2026-05-01,KNA,St.  Kitts and Nevis,0.87
+2026-05-01,KOR,Korea,197.97
+2026-05-01,KWT,Kuwait,0.03
+2026-05-01,LBN,Lebanon,5.03
+2026-05-01,LBR,Liberia,1.61
+2026-05-01,LBY,Libya,8.03
+2026-05-01,LCA,St.  Lucia,1.9
+2026-05-01,LKA,Sri Lanka,15.29
+2026-05-01,LTU,Lithuania,7.84
+2026-05-01,LVA,Latvia,10.06
+2026-05-01,MAC,Macao SAR,0.71
+2026-05-01,MAF,Saint Martin,0.39
+2026-05-01,MAR,Morocco,27.97
+2026-05-01,MDA,Moldova,0.42
+2026-05-01,MDG,Madagascar,2.1
+2026-05-01,MDV,Maldives,2.1
+2026-05-01,MEX,Mexico,36.52
+2026-05-01,MHL,Marshall Islands,0.35
+2026-05-01,MLT,Malta,10.65
+2026-05-01,MMR,Myanmar,4.19
+2026-05-01,MNE,Montenegro,1.45
+2026-05-01,MNP,Northern Mariana Islands,0.35
+2026-05-01,MOZ,Mozambique,7.19
+2026-05-01,MRT,Mauritania,2.68
+2026-05-01,MSR,Montserrat,0.19
+2026-05-01,MTQ,Martinique,2.03
+2026-05-01,MUS,Mauritius,2.71
+2026-05-01,MYS,Malaysia,105.65
+2026-05-01,MYT,Mayotte,0.42
+2026-05-01,NAM,Namibia,2.13
+2026-05-01,NCL,New Caledonia,1.48
+2026-05-01,NGA,Nigeria,11.06
+2026-05-01,NIC,Nicaragua,1.77
+2026-05-01,NLD,The Netherlands,151.52
+2026-05-01,NOR,Norway,74.29
+2026-05-01,NRU,Nauru,0.16
+2026-05-01,NZL,New Zealand,15.35
+2026-05-01,OMN,Oman,13.35
+2026-05-01,PAK,Pakistan,9.1
+2026-05-01,PAN,Panama,30.32
+2026-05-01,PER,Peru,15.97
+2026-05-01,PHL,Philippines,58.0
+2026-05-01,PLW,Palau,0.26
+2026-05-01,PNG,Papua New Guinea,7.55
+2026-05-01,POL,Poland,24.42
+2026-05-01,PRI,Puerto Rico,3.81
+2026-05-01,PRT,Portugal,28.32
+2026-05-01,PYF,French Polynesia,1.48
+2026-05-01,QAT,Qatar,2.9
+2026-05-01,REU,Réunion,1.26
+2026-05-01,ROU,Romania,9.48
+2026-05-01,RUS,Russian Federation,69.87
+2026-05-01,SAU,Saudi Arabia,27.71
+2026-05-01,SDN,Sudan,2.9
+2026-05-01,SEN,Senegal,4.74
+2026-05-01,SGP,Singapore,141.32
+2026-05-01,SLB,Solomon Islands,1.0
+2026-05-01,SLE,Sierra Leone,2.16
+2026-05-01,SLV,El Salvador,1.81
+2026-05-01,SOM,Somalia,2.23
+2026-05-01,STP,São Tomé and Príncipe,0.1
+2026-05-01,SUR,Suriname,2.1
+2026-05-01,SVN,Slovenia,3.68
+2026-05-01,SWE,Sweden,44.19
+2026-05-01,SXM,Sint Maarten,2.0
+2026-05-01,SYC,Seychelles,0.97
+2026-05-01,SYR,Syria,4.71
+2026-05-01,TCA,Turks and Caicos Islands,1.39
+2026-05-01,TGO,Togo,3.71
+2026-05-01,THA,Thailand,81.13
+2026-05-01,TKM,Turkmenistan,3.13
+2026-05-01,TLS,Timor-Leste,0.03
+2026-05-01,TON,Tonga,0.52
+2026-05-01,TTO,Trinidad and Tobago,6.9
+2026-05-01,TUN,Tunisia,9.0
+2026-05-01,TUR,Türkiye,138.35
+2026-05-01,TUV,Tuvalu,0.16
+2026-05-01,TWN,Taiwan Province of China,68.45
+2026-05-01,TZA,Tanzania,5.58
+2026-05-01,UKR,Ukraine,1.39
+2026-05-01,URY,Uruguay,6.48
+2026-05-01,USA,United States,204.35
+2026-05-01,VCT,St.  Vincent and the Grenadines,1.29
+2026-05-01,VEN,Venezuela,7.48
+2026-05-01,VGB,British Virgin Islands,0.94
+2026-05-01,VIR,United States Virgin Islands,4.58
+2026-05-01,VNM,Vietnam,114.0
+2026-05-01,VUT,Vanuatu,0.48
+2026-05-01,WSM,Samoa,0.45
+2026-05-01,YEM,Yemen,2.06
+2026-05-01,ZAF,South Africa,20.45
+2026-06-01,ABW,Aruba,1.2
+2026-06-01,AGO,Angola,6.57
+2026-06-01,AIA,Anguilla,0.37
+2026-06-01,ALB,Albania,2.87
+2026-06-01,ARE,United Arab Emirates,32.17
+2026-06-01,ARG,Argentina,27.47
+2026-06-01,ASM,American Samoa,0.4
+2026-06-01,ATG,Antigua and Barbuda,0.9
+2026-06-01,AUS,Australia,75.5
+2026-06-01,AZE,Azerbaijan,8.0
+2026-06-01,BEL,Belgium,80.77
+2026-06-01,BEN,Benin,2.43
+2026-06-01,BES,"Bonaire,  Saint Eustatius and Saba",1.47
+2026-06-01,BGD,Bangladesh,7.7
+2026-06-01,BGR,Bulgaria,5.9
+2026-06-01,BHR,Bahrain,1.73
+2026-06-01,BHS,The Bahamas,7.6
+2026-06-01,BLM,Saint-Barthélemy,0.43
+2026-06-01,BLZ,Belize,1.0
+2026-06-01,BRA,Brazil,98.87
+2026-06-01,BRB,Barbados,1.57
+2026-06-01,BRN,Brunei Darussalam,3.27
+2026-06-01,CAN,Canada,37.8
+2026-06-01,CHL,Chile,18.73
+2026-06-01,CHN,China,684.73
+2026-06-01,CIV,Côte d'Ivoire,5.6
+2026-06-01,CMR,Cameroon,3.57
+2026-06-01,COD,Democratic Republic of the Congo,1.87
+2026-06-01,COG,Republic of Congo,3.63
+2026-06-01,COK,Cook Islands,0.2
+2026-06-01,COL,Colombia,22.23
+2026-06-01,COM,Comoros,0.4
+2026-06-01,CPV,Cabo Verde,3.67
+2026-06-01,CRI,Costa Rica,5.27
+2026-06-01,CUB,Cuba,2.37
+2026-06-01,CUW,Curaçao,1.43
+2026-06-01,CYM,Cayman Islands,0.9
+2026-06-01,CYP,Cyprus,9.47
+2026-06-01,DEU,Germany,74.9
+2026-06-01,DJI,Djibouti,3.43
+2026-06-01,DMA,Dominica,0.87
+2026-06-01,DNK,Denmark,30.27
+2026-06-01,DOM,Dominican Republic,10.5
+2026-06-01,DZA,Algeria,18.43
+2026-06-01,ECU,Ecuador,8.7
+2026-06-01,EGY,Egypt,30.07
+2026-06-01,ERI,Eritrea,0.33
+2026-06-01,ESP,Spain,122.03
+2026-06-01,EST,Estonia,7.1
+2026-06-01,FIN,Finland,27.97
+2026-06-01,FJI,Fiji,2.1
+2026-06-01,FRA,France,53.3
+2026-06-01,FRO,Faroe Islands,1.47
+2026-06-01,FSM,Micronesia,0.47
+2026-06-01,GAB,Gabon,2.83
+2026-06-01,GBR,United Kingdom,110.33
+2026-06-01,GEO,Georgia,4.27
+2026-06-01,GHA,Ghana,5.47
+2026-06-01,GIB,Gibraltar,3.1
+2026-06-01,GIN,Guinea,4.87
+2026-06-01,GLP,Guadeloupe,2.13
+2026-06-01,GMB,The Gambia,0.5
+2026-06-01,GNB,Guinea-Bissau,0.5
+2026-06-01,GNQ,Equatorial Guinea,1.97
+2026-06-01,GRC,Greece,48.37
+2026-06-01,GRD,Grenada,1.1
+2026-06-01,GTM,Guatemala,8.9
+2026-06-01,GUF,French Guiana,0.67
+2026-06-01,GUM,Guam,0.73
+2026-06-01,GUY,Guyana,7.23
+2026-06-01,HKG,Hong Kong SAR,40.93
+2026-06-01,HND,Honduras,5.7
+2026-06-01,HRV,Croatia,4.9
+2026-06-01,HTI,Haiti,2.3
+2026-06-01,IDN,Indonesia,211.83
+2026-06-01,IND,India,116.87
+2026-06-01,IRL,Ireland,15.4
+2026-06-01,IRN,Iran,9.73
+2026-06-01,IRQ,Iraq,3.9
+2026-06-01,ISL,Iceland,2.77
+2026-06-01,ISR,Israel,12.37
+2026-06-01,ITA,Italy,89.93
+2026-06-01,JAM,Jamaica,9.13
+2026-06-01,JOR,Jordan,4.07
+2026-06-01,JPN,Japan,733.3
+2026-06-01,KAZ,Kazakhstan,4.03
+2026-06-01,KEN,Kenya,5.1
+2026-06-01,KHM,Cambodia,4.37
+2026-06-01,KIR,Kiribati,0.43
+2026-06-01,KNA,St.  Kitts and Nevis,0.77
+2026-06-01,KOR,Korea,203.23
+2026-06-01,KWT,Kuwait,0.77
+2026-06-01,LBN,Lebanon,5.0
+2026-06-01,LBR,Liberia,1.27
+2026-06-01,LBY,Libya,8.33
+2026-06-01,LCA,St.  Lucia,1.8
+2026-06-01,LKA,Sri Lanka,14.53
+2026-06-01,LTU,Lithuania,8.93
+2026-06-01,LVA,Latvia,9.0
+2026-06-01,MAC,Macao SAR,0.67
+2026-06-01,MAF,Saint Martin,0.5
+2026-06-01,MAR,Morocco,30.83
+2026-06-01,MDA,Moldova,0.43
+2026-06-01,MDG,Madagascar,2.33
+2026-06-01,MDV,Maldives,2.3
+2026-06-01,MEX,Mexico,36.3
+2026-06-01,MHL,Marshall Islands,0.43
+2026-06-01,MLT,Malta,10.3
+2026-06-01,MMR,Myanmar,4.07
+2026-06-01,MNE,Montenegro,1.17
+2026-06-01,MNP,Northern Mariana Islands,0.37
+2026-06-01,MOZ,Mozambique,6.5
+2026-06-01,MRT,Mauritania,2.97
+2026-06-01,MSR,Montserrat,0.17
+2026-06-01,MTQ,Martinique,2.07
+2026-06-01,MUS,Mauritius,2.9
+2026-06-01,MYS,Malaysia,107.97
+2026-06-01,MYT,Mayotte,0.43
+2026-06-01,NAM,Namibia,2.0
+2026-06-01,NCL,New Caledonia,1.4
+2026-06-01,NGA,Nigeria,11.97
+2026-06-01,NIC,Nicaragua,1.77
+2026-06-01,NLD,The Netherlands,148.17
+2026-06-01,NOR,Norway,79.2
+2026-06-01,NRU,Nauru,0.17
+2026-06-01,NZL,New Zealand,15.03
+2026-06-01,OMN,Oman,14.2
+2026-06-01,PAK,Pakistan,10.1
+2026-06-01,PAN,Panama,29.1
+2026-06-01,PER,Peru,13.17
+2026-06-01,PHL,Philippines,59.8
+2026-06-01,PLW,Palau,0.17
+2026-06-01,PNG,Papua New Guinea,7.13
+2026-06-01,POL,Poland,24.23
+2026-06-01,PRI,Puerto Rico,3.9
+2026-06-01,PRT,Portugal,28.0
+2026-06-01,PYF,French Polynesia,1.6
+2026-06-01,QAT,Qatar,4.0
+2026-06-01,REU,Réunion,1.37
+2026-06-01,ROU,Romania,10.73
+2026-06-01,RUS,Russian Federation,72.6
+2026-06-01,SAU,Saudi Arabia,26.53
+2026-06-01,SDN,Sudan,2.83
+2026-06-01,SEN,Senegal,4.37
+2026-06-01,SGP,Singapore,140.93
+2026-06-01,SLB,Solomon Islands,1.17
+2026-06-01,SLE,Sierra Leone,1.83
+2026-06-01,SLV,El Salvador,1.6
+2026-06-01,SOM,Somalia,1.97
+2026-06-01,STP,São Tomé and Príncipe,0.2
+2026-06-01,SUR,Suriname,1.87
+2026-06-01,SVN,Slovenia,3.1
+2026-06-01,SWE,Sweden,44.6
+2026-06-01,SXM,Sint Maarten,2.27
+2026-06-01,SYC,Seychelles,0.63
+2026-06-01,SYR,Syria,4.6
+2026-06-01,TCA,Turks and Caicos Islands,1.13
+2026-06-01,TGO,Togo,4.17
+2026-06-01,THA,Thailand,79.27
+2026-06-01,TKM,Turkmenistan,3.57
+2026-06-01,TLS,Timor-Leste,0.07
+2026-06-01,TON,Tonga,0.7
+2026-06-01,TTO,Trinidad and Tobago,6.83
+2026-06-01,TUN,Tunisia,8.67
+2026-06-01,TUR,Türkiye,144.67
+2026-06-01,TUV,Tuvalu,0.13
+2026-06-01,TWN,Taiwan Province of China,70.13
+2026-06-01,TZA,Tanzania,5.0
+2026-06-01,UKR,Ukraine,0.6
+2026-06-01,URY,Uruguay,5.7
+2026-06-01,USA,United States,200.77
+2026-06-01,VCT,St.  Vincent and the Grenadines,1.47
+2026-06-01,VEN,Venezuela,7.0
+2026-06-01,VGB,British Virgin Islands,0.8
+2026-06-01,VIR,United States Virgin Islands,3.93
+2026-06-01,VNM,Vietnam,115.47
+2026-06-01,VUT,Vanuatu,0.63
+2026-06-01,WSM,Samoa,0.43
+2026-06-01,YEM,Yemen,2.73
+2026-06-01,ZAF,South Africa,20.73
+2026-07-01,ABW,Aruba,1.06
+2026-07-01,AGO,Angola,5.68
+2026-07-01,AIA,Anguilla,0.35
+2026-07-01,ALB,Albania,3.32
+2026-07-01,ARE,United Arab Emirates,36.65
+2026-07-01,ARG,Argentina,26.9
+2026-07-01,ASM,American Samoa,0.45
+2026-07-01,ATG,Antigua and Barbuda,0.77
+2026-07-01,AUS,Australia,69.0
+2026-07-01,AZE,Azerbaijan,6.84
+2026-07-01,BEL,Belgium,82.87
+2026-07-01,BEN,Benin,2.45
+2026-07-01,BES,"Bonaire,  Saint Eustatius and Saba",1.35
+2026-07-01,BGD,Bangladesh,7.19
+2026-07-01,BGR,Bulgaria,5.74
+2026-07-01,BHR,Bahrain,1.9
+2026-07-01,BHS,The Bahamas,7.48
+2026-07-01,BLM,Saint-Barthélemy,0.52
+2026-07-01,BLZ,Belize,0.87
+2026-07-01,BRA,Brazil,94.48
+2026-07-01,BRB,Barbados,1.61
+2026-07-01,BRN,Brunei Darussalam,3.03
+2026-07-01,CAN,Canada,37.84
+2026-07-01,CHL,Chile,18.48
+2026-07-01,CHN,China,626.1
+2026-07-01,CIV,Côte d'Ivoire,6.35
+2026-07-01,CMR,Cameroon,3.77
+2026-07-01,COD,Democratic Republic of the Congo,2.1
+2026-07-01,COG,Republic of Congo,3.77
+2026-07-01,COK,Cook Islands,0.13
+2026-07-01,COL,Colombia,20.65
+2026-07-01,COM,Comoros,0.48
+2026-07-01,CPV,Cabo Verde,3.68
+2026-07-01,CRI,Costa Rica,5.19
+2026-07-01,CUB,Cuba,2.26
+2026-07-01,CUW,Curaçao,1.45
+2026-07-01,CYM,Cayman Islands,0.84
+2026-07-01,CYP,Cyprus,9.35
+2026-07-01,DEU,Germany,72.52
+2026-07-01,DJI,Djibouti,3.61
+2026-07-01,DMA,Dominica,0.71
+2026-07-01,DNK,Denmark,27.65
+2026-07-01,DOM,Dominican Republic,10.68
+2026-07-01,DZA,Algeria,17.65
+2026-07-01,ECU,Ecuador,9.32
+2026-07-01,EGY,Egypt,30.0
+2026-07-01,ERI,Eritrea,0.16
+2026-07-01,ESP,Spain,119.97
+2026-07-01,EST,Estonia,6.61
+2026-07-01,FIN,Finland,25.68
+2026-07-01,FJI,Fiji,2.0
+2026-07-01,FRA,France,52.71
+2026-07-01,FRO,Faroe Islands,1.13
+2026-07-01,FSM,Micronesia,0.55
+2026-07-01,GAB,Gabon,2.94
+2026-07-01,GBR,United Kingdom,105.03
+2026-07-01,GEO,Georgia,4.35
+2026-07-01,GHA,Ghana,5.65
+2026-07-01,GIB,Gibraltar,2.81
+2026-07-01,GIN,Guinea,4.52
+2026-07-01,GLP,Guadeloupe,2.03
+2026-07-01,GMB,The Gambia,0.45
+2026-07-01,GNB,Guinea-Bissau,0.55
+2026-07-01,GNQ,Equatorial Guinea,1.77
+2026-07-01,GRC,Greece,47.0
+2026-07-01,GRD,Grenada,1.26
+2026-07-01,GTM,Guatemala,9.35
+2026-07-01,GUF,French Guiana,0.48
+2026-07-01,GUM,Guam,0.97
+2026-07-01,GUY,Guyana,7.03
+2026-07-01,HKG,Hong Kong SAR,37.58
+2026-07-01,HND,Honduras,6.0
+2026-07-01,HRV,Croatia,5.1
+2026-07-01,HTI,Haiti,1.9
+2026-07-01,IDN,Indonesia,215.29
+2026-07-01,IND,India,111.35
+2026-07-01,IRL,Ireland,15.16
+2026-07-01,IRN,Iran,12.32
+2026-07-01,IRQ,Iraq,4.1
+2026-07-01,ISL,Iceland,2.45
+2026-07-01,ISR,Israel,13.97
+2026-07-01,ITA,Italy,87.55
+2026-07-01,JAM,Jamaica,9.68
+2026-07-01,JOR,Jordan,3.42
+2026-07-01,JPN,Japan,771.0
+2026-07-01,KAZ,Kazakhstan,3.74
+2026-07-01,KEN,Kenya,5.77
+2026-07-01,KHM,Cambodia,4.23
+2026-07-01,KIR,Kiribati,0.52
+2026-07-01,KNA,St.  Kitts and Nevis,0.74
+2026-07-01,KOR,Korea,200.84
+2026-07-01,KWT,Kuwait,1.55
+2026-07-01,LBN,Lebanon,5.32
+2026-07-01,LBR,Liberia,1.48
+2026-07-01,LBY,Libya,10.0
+2026-07-01,LCA,St.  Lucia,1.87
+2026-07-01,LKA,Sri Lanka,14.68
+2026-07-01,LTU,Lithuania,7.61
+2026-07-01,LVA,Latvia,8.58
+2026-07-01,MAC,Macao SAR,0.94
+2026-07-01,MAF,Saint Martin,0.35
+2026-07-01,MAR,Morocco,27.29
+2026-07-01,MDA,Moldova,0.71
+2026-07-01,MDG,Madagascar,2.13
+2026-07-01,MDV,Maldives,1.81
+2026-07-01,MEX,Mexico,35.55
+2026-07-01,MHL,Marshall Islands,0.29
+2026-07-01,MLT,Malta,10.03
+2026-07-01,MMR,Myanmar,3.48
+2026-07-01,MNE,Montenegro,1.32
+2026-07-01,MNP,Northern Mariana Islands,0.23
+2026-07-01,MOZ,Mozambique,6.39
+2026-07-01,MRT,Mauritania,2.71
+2026-07-01,MSR,Montserrat,0.32
+2026-07-01,MTQ,Martinique,1.74
+2026-07-01,MUS,Mauritius,2.87
+2026-07-01,MYS,Malaysia,107.45
+2026-07-01,MYT,Mayotte,0.35
+2026-07-01,NAM,Namibia,2.61
+2026-07-01,NCL,New Caledonia,1.32
+2026-07-01,NGA,Nigeria,11.55
+2026-07-01,NIC,Nicaragua,1.65
+2026-07-01,NLD,The Netherlands,155.23
+2026-07-01,NOR,Norway,70.81
+2026-07-01,NRU,Nauru,0.06
+2026-07-01,NZL,New Zealand,15.45
+2026-07-01,OMN,Oman,13.97
+2026-07-01,PAK,Pakistan,9.77
+2026-07-01,PAN,Panama,29.19
+2026-07-01,PER,Peru,15.9
+2026-07-01,PHL,Philippines,60.29
+2026-07-01,PLW,Palau,0.13
+2026-07-01,PNG,Papua New Guinea,7.61
+2026-07-01,POL,Poland,25.03
+2026-07-01,PRI,Puerto Rico,3.77
+2026-07-01,PRT,Portugal,27.77
+2026-07-01,PYF,French Polynesia,1.29
+2026-07-01,QAT,Qatar,4.81
+2026-07-01,REU,Réunion,0.97
+2026-07-01,ROU,Romania,11.39
+2026-07-01,RUS,Russian Federation,68.0
+2026-07-01,SAU,Saudi Arabia,22.03
+2026-07-01,SDN,Sudan,2.16
+2026-07-01,SEN,Senegal,4.13
+2026-07-01,SGP,Singapore,134.77
+2026-07-01,SLB,Solomon Islands,0.87
+2026-07-01,SLE,Sierra Leone,1.9
+2026-07-01,SLV,El Salvador,1.77
+2026-07-01,SOM,Somalia,2.16
+2026-07-01,STP,São Tomé and Príncipe,0.1
+2026-07-01,SUR,Suriname,1.77
+2026-07-01,SVN,Slovenia,3.74
+2026-07-01,SWE,Sweden,40.52
+2026-07-01,SXM,Sint Maarten,2.1
+2026-07-01,SYC,Seychelles,0.65
+2026-07-01,SYR,Syria,4.23
+2026-07-01,TCA,Turks and Caicos Islands,1.1
+2026-07-01,TGO,Togo,3.74
+2026-07-01,THA,Thailand,77.06
+2026-07-01,TKM,Turkmenistan,2.77
+2026-07-01,TLS,Timor-Leste,0.1
+2026-07-01,TON,Tonga,0.71
+2026-07-01,TTO,Trinidad and Tobago,7.45
+2026-07-01,TUN,Tunisia,8.9
+2026-07-01,TUR,Türkiye,136.35
+2026-07-01,TUV,Tuvalu,0.1
+2026-07-01,TWN,Taiwan Province of China,66.45
+2026-07-01,TZA,Tanzania,5.48
+2026-07-01,UKR,Ukraine,0.39
+2026-07-01,URY,Uruguay,4.55
+2026-07-01,USA,United States,196.81
+2026-07-01,VCT,St.  Vincent and the Grenadines,1.35
+2026-07-01,VEN,Venezuela,7.81
+2026-07-01,VGB,British Virgin Islands,0.84
+2026-07-01,VIR,United States Virgin Islands,4.32
+2026-07-01,VNM,Vietnam,112.13
+2026-07-01,VUT,Vanuatu,0.65
+2026-07-01,WSM,Samoa,0.55
+2026-07-01,YEM,Yemen,2.03
+2026-07-01,ZAF,South Africa,19.77
+2026-08-01,ABW,Aruba,0.74
+2026-08-01,AGO,Angola,5.48
+2026-08-01,AIA,Anguilla,0.35
+2026-08-01,ALB,Albania,2.94
+2026-08-01,ARE,United Arab Emirates,35.35
+2026-08-01,ARG,Argentina,22.9
+2026-08-01,ASM,American Samoa,0.29
+2026-08-01,ATG,Antigua and Barbuda,0.81
+2026-08-01,AUS,Australia,70.19
+2026-08-01,AZE,Azerbaijan,6.81
+2026-08-01,BEL,Belgium,80.55
+2026-08-01,BEN,Benin,2.55
+2026-08-01,BES,"Bonaire,  Saint Eustatius and Saba",1.32
+2026-08-01,BGD,Bangladesh,7.29
+2026-08-01,BGR,Bulgaria,6.29
+2026-08-01,BHR,Bahrain,1.58
+2026-08-01,BHS,The Bahamas,7.29
+2026-08-01,BLM,Saint-Barthélemy,0.39
+2026-08-01,BLZ,Belize,0.74
+2026-08-01,BRA,Brazil,91.97
+2026-08-01,BRB,Barbados,1.39
+2026-08-01,BRN,Brunei Darussalam,3.45
+2026-08-01,CAN,Canada,37.58
+2026-08-01,CHL,Chile,19.23
+2026-08-01,CHN,China,606.39
+2026-08-01,CIV,Côte d'Ivoire,6.03
+2026-08-01,CMR,Cameroon,4.03
+2026-08-01,COD,Democratic Republic of the Congo,1.9
+2026-08-01,COG,Republic of Congo,3.55
+2026-08-01,COK,Cook Islands,0.16
+2026-08-01,COL,Colombia,21.45
+2026-08-01,COM,Comoros,0.61
+2026-08-01,CPV,Cabo Verde,4.29
+2026-08-01,CRI,Costa Rica,5.1
+2026-08-01,CUB,Cuba,2.45
+2026-08-01,CUW,Curaçao,1.16
+2026-08-01,CYM,Cayman Islands,0.81
+2026-08-01,CYP,Cyprus,8.35
+2026-08-01,DEU,Germany,70.77
+2026-08-01,DJI,Djibouti,3.35
+2026-08-01,DMA,Dominica,0.71
+2026-08-01,DNK,Denmark,31.65
+2026-08-01,DOM,Dominican Republic,10.39
+2026-08-01,DZA,Algeria,17.23
+2026-08-01,ECU,Ecuador,10.26
+2026-08-01,EGY,Egypt,31.06
+2026-08-01,ERI,Eritrea,0.26
+2026-08-01,ESP,Spain,120.13
+2026-08-01,EST,Estonia,6.74
+2026-08-01,FIN,Finland,24.84
+2026-08-01,FJI,Fiji,2.42
+2026-08-01,FRA,France,51.87
+2026-08-01,FRO,Faroe Islands,0.87
+2026-08-01,FSM,Micronesia,0.42
+2026-08-01,GAB,Gabon,2.65
+2026-08-01,GBR,United Kingdom,104.35
+2026-08-01,GEO,Georgia,4.03
+2026-08-01,GHA,Ghana,5.06
+2026-08-01,GIB,Gibraltar,2.55
+2026-08-01,GIN,Guinea,4.39
+2026-08-01,GLP,Guadeloupe,2.0
+2026-08-01,GMB,The Gambia,0.29
+2026-08-01,GNB,Guinea-Bissau,0.45
+2026-08-01,GNQ,Equatorial Guinea,1.84
+2026-08-01,GRC,Greece,44.84
+2026-08-01,GRD,Grenada,1.19
+2026-08-01,GTM,Guatemala,8.19
+2026-08-01,GUF,French Guiana,0.52
+2026-08-01,GUM,Guam,0.81
+2026-08-01,GUY,Guyana,7.16
+2026-08-01,HKG,Hong Kong SAR,38.58
+2026-08-01,HND,Honduras,5.32
+2026-08-01,HRV,Croatia,5.06
+2026-08-01,HTI,Haiti,2.03
+2026-08-01,IDN,Indonesia,212.29
+2026-08-01,IND,India,110.39
+2026-08-01,IRL,Ireland,14.87
+2026-08-01,IRN,Iran,11.65
+2026-08-01,IRQ,Iraq,3.39
+2026-08-01,ISL,Iceland,2.58
+2026-08-01,ISR,Israel,13.19
+2026-08-01,ITA,Italy,81.0
+2026-08-01,JAM,Jamaica,8.45
+2026-08-01,JOR,Jordan,4.03
+2026-08-01,JPN,Japan,702.71
+2026-08-01,KAZ,Kazakhstan,3.97
+2026-08-01,KEN,Kenya,5.52
+2026-08-01,KHM,Cambodia,4.48
+2026-08-01,KIR,Kiribati,0.42
+2026-08-01,KNA,St.  Kitts and Nevis,0.52
+2026-08-01,KOR,Korea,192.87
+2026-08-01,KWT,Kuwait,0.32
+2026-08-01,LBN,Lebanon,6.29
+2026-08-01,LBR,Liberia,1.42
+2026-08-01,LBY,Libya,9.45
+2026-08-01,LCA,St.  Lucia,1.9
+2026-08-01,LKA,Sri Lanka,14.61
+2026-08-01,LTU,Lithuania,8.87
+2026-08-01,LVA,Latvia,8.94
+2026-08-01,MAC,Macao SAR,0.81
+2026-08-01,MAF,Saint Martin,0.35
+2026-08-01,MAR,Morocco,27.35
+2026-08-01,MDA,Moldova,0.81
+2026-08-01,MDG,Madagascar,1.94
+2026-08-01,MDV,Maldives,2.1
+2026-08-01,MEX,Mexico,33.94
+2026-08-01,MHL,Marshall Islands,0.16
+2026-08-01,MLT,Malta,9.87
+2026-08-01,MMR,Myanmar,3.48
+2026-08-01,MNE,Montenegro,1.23
+2026-08-01,MNP,Northern Mariana Islands,0.32
+2026-08-01,MOZ,Mozambique,6.55
+2026-08-01,MRT,Mauritania,2.71
+2026-08-01,MSR,Montserrat,0.29
+2026-08-01,MTQ,Martinique,1.94
+2026-08-01,MUS,Mauritius,2.71
+2026-08-01,MYS,Malaysia,103.97
+2026-08-01,MYT,Mayotte,0.35
+2026-08-01,NAM,Namibia,2.16
+2026-08-01,NCL,New Caledonia,1.35
+2026-08-01,NGA,Nigeria,11.68
+2026-08-01,NIC,Nicaragua,1.55
+2026-08-01,NLD,The Netherlands,151.58
+2026-08-01,NOR,Norway,75.29
+2026-08-01,NRU,Nauru,0.19
+2026-08-01,NZL,New Zealand,14.74
+2026-08-01,OMN,Oman,13.77
+2026-08-01,PAK,Pakistan,9.0
+2026-08-01,PAN,Panama,27.9
+2026-08-01,PER,Peru,15.29
+2026-08-01,PHL,Philippines,53.23
+2026-08-01,PLW,Palau,0.16
+2026-08-01,PNG,Papua New Guinea,6.9
+2026-08-01,POL,Poland,25.23
+2026-08-01,PRI,Puerto Rico,3.77
+2026-08-01,PRT,Portugal,26.23
+2026-08-01,PYF,French Polynesia,1.52
+2026-08-01,QAT,Qatar,4.58
+2026-08-01,REU,Réunion,1.23
+2026-08-01,ROU,Romania,11.45
+2026-08-01,RUS,Russian Federation,61.55
+2026-08-01,SAU,Saudi Arabia,9.61
+2026-08-01,SDN,Sudan,3.26
+2026-08-01,SEN,Senegal,4.1
+2026-08-01,SGP,Singapore,131.26
+2026-08-01,SLB,Solomon Islands,0.77
+2026-08-01,SLE,Sierra Leone,1.52
+2026-08-01,SLV,El Salvador,1.52
+2026-08-01,SOM,Somalia,2.03
+2026-08-01,STP,São Tomé and Príncipe,0.19
+2026-08-01,SUR,Suriname,2.0
+2026-08-01,SVN,Slovenia,3.16
+2026-08-01,SWE,Sweden,41.68
+2026-08-01,SXM,Sint Maarten,2.16
+2026-08-01,SYC,Seychelles,0.52
+2026-08-01,SYR,Syria,3.74
+2026-08-01,TCA,Turks and Caicos Islands,1.26
+2026-08-01,TGO,Togo,3.84
+2026-08-01,THA,Thailand,74.84
+2026-08-01,TKM,Turkmenistan,2.68
+2026-08-01,TLS,Timor-Leste,0.06
+2026-08-01,TON,Tonga,0.55
+2026-08-01,TTO,Trinidad and Tobago,7.42
+2026-08-01,TUN,Tunisia,8.77
+2026-08-01,TUR,Türkiye,123.9
+2026-08-01,TUV,Tuvalu,0.13
+2026-08-01,TWN,Taiwan Province of China,64.32
+2026-08-01,TZA,Tanzania,5.45
+2026-08-01,UKR,Ukraine,0.13
+2026-08-01,URY,Uruguay,5.03
+2026-08-01,USA,United States,194.58
+2026-08-01,VCT,St.  Vincent and the Grenadines,1.29
+2026-08-01,VEN,Venezuela,7.55
+2026-08-01,VGB,British Virgin Islands,0.84
+2026-08-01,VIR,United States Virgin Islands,4.48
+2026-08-01,VNM,Vietnam,108.32
+2026-08-01,VUT,Vanuatu,0.52
+2026-08-01,WSM,Samoa,0.52
+2026-08-01,YEM,Yemen,2.23
+2026-08-01,ZAF,South Africa,19.9
+2026-09-01,ABW,Aruba,1.13
+2026-09-01,AGO,Angola,6.13
+2026-09-01,AIA,Anguilla,0.3
+2026-09-01,ALB,Albania,2.9
+2026-09-01,ARE,United Arab Emirates,36.2
+2026-09-01,ARG,Argentina,26.83
+2026-09-01,ASM,American Samoa,0.37
+2026-09-01,ATG,Antigua and Barbuda,0.57
+2026-09-01,AUS,Australia,69.17
+2026-09-01,AZE,Azerbaijan,7.67
+2026-09-01,BEL,Belgium,84.37
+2026-09-01,BEN,Benin,2.2
+2026-09-01,BES,"Bonaire,  Saint Eustatius and Saba",1.6
+2026-09-01,BGD,Bangladesh,7.27
+2026-09-01,BGR,Bulgaria,6.43
+2026-09-01,BHR,Bahrain,1.87
+2026-09-01,BHS,The Bahamas,7.03
+2026-09-01,BLM,Saint-Barthélemy,0.37
+2026-09-01,BLZ,Belize,0.67
+2026-09-01,BRA,Brazil,95.1
+2026-09-01,BRB,Barbados,1.47
+2026-09-01,BRN,Brunei Darussalam,3.17
+2026-09-01,CAN,Canada,35.97
+2026-09-01,CHL,Chile,19.63
+2026-09-01,CHN,China,653.6
+2026-09-01,CIV,Côte d'Ivoire,6.2
+2026-09-01,CMR,Cameroon,4.07
+2026-09-01,COD,Democratic Republic of the Congo,1.8
+2026-09-01,COG,Republic of Congo,3.33
+2026-09-01,COK,Cook Islands,0.1
+2026-09-01,COL,Colombia,20.9
+2026-09-01,COM,Comoros,0.7
+2026-09-01,CPV,Cabo Verde,4.03
+2026-09-01,CRI,Costa Rica,5.13
+2026-09-01,CUB,Cuba,2.6
+2026-09-01,CUW,Curaçao,1.5
+2026-09-01,CYM,Cayman Islands,0.63
+2026-09-01,CYP,Cyprus,8.9
+2026-09-01,DEU,Germany,71.77
+2026-09-01,DJI,Djibouti,3.53
+2026-09-01,DMA,Dominica,0.73
+2026-09-01,DNK,Denmark,30.23
+2026-09-01,DOM,Dominican Republic,9.67
+2026-09-01,DZA,Algeria,16.87
+2026-09-01,ECU,Ecuador,9.2
+2026-09-01,EGY,Egypt,30.67
+2026-09-01,ERI,Eritrea,0.27
+2026-09-01,ESP,Spain,124.63
+2026-09-01,EST,Estonia,7.0
+2026-09-01,FIN,Finland,25.23
+2026-09-01,FJI,Fiji,2.37
+2026-09-01,FRA,France,53.33
+2026-09-01,FRO,Faroe Islands,1.4
+2026-09-01,FSM,Micronesia,0.47
+2026-09-01,GAB,Gabon,2.97
+2026-09-01,GBR,United Kingdom,104.23
+2026-09-01,GEO,Georgia,4.5
+2026-09-01,GHA,Ghana,5.63
+2026-09-01,GIB,Gibraltar,2.33
+2026-09-01,GIN,Guinea,4.07
+2026-09-01,GLP,Guadeloupe,1.97
+2026-09-01,GMB,The Gambia,0.5
+2026-09-01,GNB,Guinea-Bissau,0.27
+2026-09-01,GNQ,Equatorial Guinea,1.83
+2026-09-01,GRC,Greece,46.3
+2026-09-01,GRD,Grenada,1.2
+2026-09-01,GTM,Guatemala,8.67
+2026-09-01,GUF,French Guiana,0.43
+2026-09-01,GUM,Guam,0.67
+2026-09-01,GUY,Guyana,6.17
+2026-09-01,HKG,Hong Kong SAR,37.97
+2026-09-01,HND,Honduras,5.37
+2026-09-01,HRV,Croatia,5.27
+2026-09-01,HTI,Haiti,1.67
+2026-09-01,IDN,Indonesia,215.5
+2026-09-01,IND,India,110.7
+2026-09-01,IRL,Ireland,14.7
+2026-09-01,IRN,Iran,8.97
+2026-09-01,IRQ,Iraq,4.33
+2026-09-01,ISL,Iceland,2.3
+2026-09-01,ISR,Israel,11.17
+2026-09-01,ITA,Italy,83.27
+2026-09-01,JAM,Jamaica,9.07
+2026-09-01,JOR,Jordan,4.2
+2026-09-01,JPN,Japan,704.8
+2026-09-01,KAZ,Kazakhstan,4.23
+2026-09-01,KEN,Kenya,5.07
+2026-09-01,KHM,Cambodia,4.67
+2026-09-01,KIR,Kiribati,0.13
+2026-09-01,KNA,St.  Kitts and Nevis,0.57
+2026-09-01,KOR,Korea,190.1
+2026-09-01,KWT,Kuwait,0.27
+2026-09-01,LBN,Lebanon,5.87
+2026-09-01,LBR,Liberia,1.73
+2026-09-01,LBY,Libya,8.5
+2026-09-01,LCA,St.  Lucia,2.1
+2026-09-01,LKA,Sri Lanka,13.8
+2026-09-01,LTU,Lithuania,8.9
+2026-09-01,LVA,Latvia,9.47
+2026-09-01,MAC,Macao SAR,0.7
+2026-09-01,MAF,Saint Martin,0.33
+2026-09-01,MAR,Morocco,27.27
+2026-09-01,MDA,Moldova,0.67
+2026-09-01,MDG,Madagascar,1.9
+2026-09-01,MDV,Maldives,2.1
+2026-09-01,MEX,Mexico,31.47
+2026-09-01,MHL,Marshall Islands,0.17
+2026-09-01,MLT,Malta,10.93
+2026-09-01,MMR,Myanmar,3.2
+2026-09-01,MNE,Montenegro,1.43
+2026-09-01,MNP,Northern Mariana Islands,0.23
+2026-09-01,MOZ,Mozambique,7.2
+2026-09-01,MRT,Mauritania,2.43
+2026-09-01,MSR,Montserrat,0.33
+2026-09-01,MTQ,Martinique,1.87
+2026-09-01,MUS,Mauritius,2.87
+2026-09-01,MYS,Malaysia,103.7
+2026-09-01,MYT,Mayotte,0.43
+2026-09-01,NAM,Namibia,2.23
+2026-09-01,NCL,New Caledonia,1.47
+2026-09-01,NGA,Nigeria,11.47
+2026-09-01,NIC,Nicaragua,1.4
+2026-09-01,NLD,The Netherlands,156.0
+2026-09-01,NOR,Norway,76.83
+2026-09-01,NRU,Nauru,0.07
+2026-09-01,NZL,New Zealand,14.2
+2026-09-01,OMN,Oman,14.53
+2026-09-01,PAK,Pakistan,9.17
+2026-09-01,PAN,Panama,27.47
+2026-09-01,PER,Peru,14.73
+2026-09-01,PHL,Philippines,56.77
+2026-09-01,PLW,Palau,0.13
+2026-09-01,PNG,Papua New Guinea,7.3
+2026-09-01,POL,Poland,24.9
+2026-09-01,PRI,Puerto Rico,3.37
+2026-09-01,PRT,Portugal,26.87
+2026-09-01,PYF,French Polynesia,1.5
+2026-09-01,QAT,Qatar,3.87
+2026-09-01,REU,Réunion,1.03
+2026-09-01,ROU,Romania,11.6
+2026-09-01,RUS,Russian Federation,56.6
+2026-09-01,SAU,Saudi Arabia,8.6
+2026-09-01,SDN,Sudan,2.5
+2026-09-01,SEN,Senegal,4.4
+2026-09-01,SGP,Singapore,131.13
+2026-09-01,SLB,Solomon Islands,1.2
+2026-09-01,SLE,Sierra Leone,2.6
+2026-09-01,SLV,El Salvador,1.5
+2026-09-01,SOM,Somalia,1.77
+2026-09-01,STP,São Tomé and Príncipe,0.17
+2026-09-01,SUR,Suriname,2.1
+2026-09-01,SVN,Slovenia,3.67
+2026-09-01,SWE,Sweden,43.6
+2026-09-01,SXM,Sint Maarten,2.07
+2026-09-01,SYC,Seychelles,0.5
+2026-09-01,SYR,Syria,3.87
+2026-09-01,TCA,Turks and Caicos Islands,1.13
+2026-09-01,TGO,Togo,4.03
+2026-09-01,THA,Thailand,72.1
+2026-09-01,TKM,Turkmenistan,2.43
+2026-09-01,TLS,Timor-Leste,0.03
+2026-09-01,TON,Tonga,0.67
+2026-09-01,TTO,Trinidad and Tobago,7.4
+2026-09-01,TUN,Tunisia,8.37
+2026-09-01,TUR,Türkiye,117.3
+2026-09-01,TUV,Tuvalu,0.1
+2026-09-01,TWN,Taiwan Province of China,68.1
+2026-09-01,TZA,Tanzania,5.43
+2026-09-01,UKR,Ukraine,0.5
+2026-09-01,URY,Uruguay,4.57
+2026-09-01,USA,United States,193.27
+2026-09-01,VCT,St.  Vincent and the Grenadines,1.4
+2026-09-01,VEN,Venezuela,7.67
+2026-09-01,VGB,British Virgin Islands,0.7
+2026-09-01,VIR,United States Virgin Islands,4.1
+2026-09-01,VNM,Vietnam,107.4
+2026-09-01,VUT,Vanuatu,0.6
+2026-09-01,WSM,Samoa,0.53
+2026-09-01,YEM,Yemen,2.0
+2026-09-01,ZAF,South Africa,18.3

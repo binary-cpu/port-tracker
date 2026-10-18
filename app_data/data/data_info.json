@@ -1,0 +1,20 @@
+{
+  "last_day": "2026-10-09",
+  "recent_28": [
+    "2026-09-12",
+    "2026-10-09"
+  ],
+  "baseline_28": [
+    "2025-09-13",
+    "2025-10-10"
+  ],
+  "recent_90": [
+    "2026-07-12",
+    "2026-10-09"
+  ],
+  "baseline_90": [
+    "2025-07-13",
+    "2025-10-10"
+  ],
+  "source": "UN Global Platform; IMF PortWatch (AIS-observed port calls). Derived summaries only."
+}
