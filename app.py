@@ -1,4 +1,5 @@
 import json
+import os
 import pandas as pd
 import pydeck as pdk
 import requests
@@ -11,12 +12,15 @@ GULF = ["ARE", "QAT", "IRQ", "IRN", "KWT", "BHR", "SAU", "OMN"]
 st.set_page_config(page_title="Port Tracker", layout="wide")
 
 
+DATA_DIR = "data" if os.path.exists("data/port_summary.csv") else "app_data/data"      # works whether the folder was uploaded as data/ or app_data/data/
+
+
 @st.cache_data
 def load():
-    ports = pd.read_csv("data/port_summary.csv")
+    ports = pd.read_csv(f"{DATA_DIR}/port_summary.csv")
     ports["continent"] = ports["continent"].fillna("Unknown")      # keep ports with no continent label in the default view
-    cm = pd.read_csv("data/country_monthly.csv", parse_dates=["month_start"])
-    info = json.load(open("data/data_info.json"))
+    cm = pd.read_csv(f"{DATA_DIR}/country_monthly.csv", parse_dates=["month_start"])
+    info = json.load(open(f"{DATA_DIR}/data_info.json"))
     return ports, cm, info
 
 
