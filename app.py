@@ -1,167 +1,61 @@
+import html
 import json
 import os
+
 import pandas as pd
 import pydeck as pdk
 import requests
 import streamlit as st
-import altair as alt
 
-# --- API & CONSTANTS ---
 DAILY = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Ports_Data/FeatureServer/0/query"
-TYPES = ["container", "dry_bulk", "general_cargo", "roro", "tanker"]
-GULF = ["ARE", "QAT", "IRQ", "IRN", "KWT", "BHR", "SAU", "OMN"]
-
-# --- PAGE CONFIG ---
-st.set_page_config(
-    page_title="NEXUS | Maritime Intelligence Command",
-    page_icon="⚓",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
-
-# --- CUSTOM CSS & ANIMATIONS INJECTION ---
-st.markdown("""
-<style>
-    /* Dark Command Theme */
-    .stApp {
-        background-color: #07090E;
-        color: #E2E8F0;
-        font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    }
-    
-    header[data-testid="stHeader"] { background: rgba(7, 9, 14, 0.8); }
-
-    /* Keyframe Animations */
-    @keyframes pulseGlow {
-        0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-        70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
-        100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
-    }
-
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
-
-    .animated-container {
-        animation: fadeIn 0.6s ease-out forwards;
-    }
-
-    .live-badge {
-        display: inline-flex;
-        align-items: center;
-        background: rgba(16, 185, 129, 0.15);
-        color: #10B981;
-        padding: 4px 12px;
-        border-radius: 20px;
-        font-size: 0.75rem;
-        font-weight: 600;
-        letter-spacing: 0.05em;
-        border: 1px solid rgba(16, 185, 129, 0.3);
-    }
-
-    .pulse-dot {
-        width: 8px;
-        height: 8px;
-        background-color: #10B981;
-        border-radius: 50%;
-        display: inline-block;
-        margin-right: 6px;
-        animation: pulseGlow 2s infinite;
-    }
-    
-    /* Glassmorphism Metric Cards with Hover Glow */
-    div.metric-card {
-        background: linear-gradient(135deg, rgba(22, 27, 38, 0.8) 0%, rgba(13, 17, 23, 0.9) 100%);
-        border: 1px solid rgba(255, 255, 255, 0.06);
-        border-radius: 14px;
-        padding: 22px;
-        box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(10px);
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    div.metric-card:hover {
-        transform: translateY(-4px);
-        border-color: rgba(56, 189, 248, 0.4);
-        box-shadow: 0 15px 35px 0 rgba(56, 189, 248, 0.15);
-    }
-    
-    .metric-title {
-        font-size: 0.75rem;
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        color: #94A3B8;
-        margin-bottom: 8px;
-        font-weight: 600;
-    }
-    .metric-value {
-        font-size: 2.2rem;
-        font-weight: 800;
-        color: #F8FAFC;
-        letter-spacing: -0.03em;
-    }
-    .metric-sub {
-        font-size: 0.8rem;
-        font-weight: 600;
-        margin-top: 8px;
-    }
-    .text-positive { color: #10B981; }
-    .text-negative { color: #EF4444; }
-    .text-neutral { color: #38BDF8; }
-
-    /* Section Headers */
-    .section-header {
-        border-left: 4px solid #38BDF8;
-        padding-left: 12px;
-        margin: 35px 0 18px 0;
-        font-size: 1.25rem;
-        font-weight: 700;
-        color: #F8FAFC;
-        letter-spacing: -0.01em;
-    }
-
-    /* Sidebar Customization */
-    section[data-testid="stSidebar"] {
-        background-color: #0C1017;
-        border-right: 1px solid rgba(255, 255, 255, 0.04);
-    }
-</style>
-""", unsafe_allow_html=True)
-
-
 DATA_DIR = "data" if os.path.exists("data/port_summary.csv") else "app_data/data"
+TYPES = {"container": "Container", "dry_bulk": "Dry bulk", "general_cargo": "General cargo", "roro": "Ro-ro", "tanker": "Tanker"}
+GULF = ["ARE", "QAT", "IRQ", "IRN", "KWT", "BHR", "SAU", "OMN"]
+DROP, GAIN, FLAT = "#E69F00", "#56B4E9", "#8A9BB3"
+STORIES = {
+    "The Gulf goes quiet": ("Mar 2026", "Gulf-region countries drop sharply this month. The timing matches the Hormuz pattern in my chokepoint project, but both come from the same AIS source and this data does not show why."),
+    "Asia pulls ahead": ("May 2026", "India, Korea, the Philippines and Taiwan rise while China falls. The rise is spread across ship types, and I have not established whether it is real traffic or a change in how calls are counted."),
+    "The latest month": (None, "The newest complete month in the data. Compare it with the dotted reference: the average of the months up to February 2026."),
+}
+
+st.set_page_config(page_title="Where did the ships go?", page_icon="🚢", layout="wide")
+st.markdown("""<style>
+.block-container{max-width:1150px;padding-top:1.6rem}
+#MainMenu,footer{visibility:hidden}
+.kicker{letter-spacing:.18em;text-transform:uppercase;font-size:.78rem;color:#E69F00;font-weight:700}
+.hero h1{font-family:Georgia,'Times New Roman',serif;font-size:3.3rem;line-height:1.04;margin:.3rem 0 .6rem;font-weight:700}
+.hero p{font-size:1.15rem;opacity:.88;max-width:48rem;line-height:1.5}
+.stat{background:#12335E;border-radius:16px;padding:1rem 1.2rem;border:1px solid #1d3f6e}
+.stat b{display:block;font-family:Georgia,serif;font-size:2.2rem;line-height:1.1}
+.stat span{opacity:.78;font-size:.92rem}
+.sec{font-family:Georgia,serif;font-size:1.9rem;margin:2.8rem 0 .1rem}
+.sub{opacity:.78;margin-bottom:.9rem;max-width:46rem}
+.note{border-left:4px solid #E69F00;background:#12335E;padding:.8rem 1rem;border-radius:0 12px 12px 0;margin:.8rem 0}
+.row{display:grid;grid-template-columns:minmax(8rem,17rem) 1fr 6rem;gap:.8rem;align-items:center;padding:.32rem 0;border-bottom:1px solid #1d3f6e;font-size:.95rem}
+.row small{opacity:.7}.bar{height:12px;border-radius:6px}.num{text-align:right;font-variant-numeric:tabular-nums}
+.card{background:#12335E;border-radius:18px;padding:1.2rem 1.4rem;border:1px solid #1d3f6e}
+.card h3{font-family:Georgia,serif;font-size:1.7rem;margin:0 0 .2rem}
+.big{font-family:Georgia,serif;font-size:2.4rem;line-height:1.1}
+</style>""", unsafe_allow_html=True)
 
 
 @st.cache_data
 def load():
     ports = pd.read_csv(f"{DATA_DIR}/port_summary.csv")
-    ports["continent"] = ports["continent"].fillna("Unknown")
+    ports["continent"] = ports["continent"].fillna("Unknown"); ports["country"] = ports["country"].fillna("")
     cm = pd.read_csv(f"{DATA_DIR}/country_monthly.csv", parse_dates=["month_start"])
-    info = json.load(open(f"{DATA_DIR}/data_info.json"))
-    return ports, cm, info
+    return ports, cm, json.load(open(f"{DATA_DIR}/data_info.json"))
 
 
-@st.cache_data(ttl=6 * 3600, show_spinner=False)
+@st.cache_data(ttl=6 * 3600, show_spinner="Fetching this port's daily history...")
 def port_daily(portid, since):
     rows, off = [], 0
     while True:
-        r = requests.get(
-            DAILY, 
-            params={
-                "where": f"portid = '{portid}' AND date >= '{since}'", 
-                "outFields": "date,portcalls", 
-                "orderByFields": "ObjectId",
-                "returnGeometry": "false", 
-                "resultOffset": off, 
-                "resultRecordCount": 1000, 
-                "f": "json"
-            }, 
-            timeout=120
-        ).json()
+        r = requests.get(DAILY, params={"where": f"portid = '{portid}' AND date >= '{since}'", "outFields": "date,portcalls", "orderByFields": "ObjectId",
+                                        "returnGeometry": "false", "resultOffset": off, "resultRecordCount": 1000, "f": "json"}, timeout=120).json()
         if "error" in r:
             raise RuntimeError(r["error"])
-        feats = r.get("features", [])
-        rows += [x["attributes"] for x in feats]
+        feats = r.get("features", []); rows += [x["attributes"] for x in feats]
         if len(feats) < 1000:
             break
         off += 1000
@@ -170,285 +64,119 @@ def port_daily(portid, since):
     return d.sort_values("date")
 
 
+def bars(df, color, label_col="portname"):
+    top = max(df["change"].abs().max(), 1)
+    out = ""
+    for r in df.itertuples():
+        pct = "" if pd.isna(r.pct) else f"{r.pct:+.0f}%"
+        out += (f'<div class="row"><div>{html.escape(str(r.portname))}<br><small>{html.escape(str(r.country))} · {int(r.base)} → {int(r.recent)}</small></div>'
+                f'<div><div class="bar" style="width:{100 * abs(r.change) / top:.0f}%;background:{color}"></div></div><div class="num">{int(r.change):+,}<br><small>{pct}</small></div></div>')
+    return out or "<p class='sub'>Nothing matches these settings.</p>"
+
+
 try:
     ports, cm, info = load()
 except Exception as e:
-    st.error(f"Data files could not be loaded: {e}")
+    st.error(f"The data files could not be loaded ({e}).")
     st.stop()
 
-# --- SIDEBAR CONTROLS ---
-with st.sidebar:
-    st.markdown("### ⚓ NEXUS COMMAND")
-    st.caption("Global Maritime Telemetry")
-    st.markdown("---")
-    
-    w = st.radio(
-        "Observation Window", 
-        [28, 90], 
-        format_func=lambda d: f"{d}-Day YoY Window"
-    )
-    
-    min_default = 50 if w == 28 else 150
-    minvol = st.slider("Min Baseline Traffic Volume", 0, 1000, min_default, step=10)
-    
-    conts = sorted(ports.continent.dropna().unique())
-    pick = st.multiselect("Filter Continents", conts, default=conts)
-
-    st.markdown("---")
-    with st.expander("ℹ️ Telemetry Notes"):
-        st.caption(
-            "• **Sources:** UN Global Platform & IMF PortWatch.\n"
-            "• **Tracking:** AIS Transponder Analytics.\n"
-            "• Seasonally adjusted against identical baseline periods from the previous year."
-        )
-
-# --- DATA COMPUTATION ---
-df = ports.assign(base=ports[f"base_{w}"], recent=ports[f"recent_{w}"])
+# ---------------- hero ----------------
+w = 28
+df = ports.assign(base=ports["base_28"], recent=ports["recent_28"])
 df["change"] = df.recent - df.base
-df["pct"] = (100 * (df.recent / df.base - 1)).where(df.base > 0).round(1)
-shown = df[(df.base >= minvol) & df.continent.isin(pick)].copy()
+df["pct"] = (100 * (df.recent / df.base - 1)).where(df.base > 0)
+tb, tr = int(df.base.sum()), int(df.recent.sum()); ranked = df[df.base >= 50]
+st.markdown(f"""<div class="hero"><div class="kicker">Port Tracker · data through {info['last_day']}</div>
+<h1>Where did the ships go?</h1>
+<p>Every day, ships call at about {len(ports):,} ports. Travel through the last year, month by month, then meet any port in person.
+The data show <b>what changed</b>, never why.</p></div>""", unsafe_allow_html=True)
+c1, c2, c3 = st.columns(3)
+c1.markdown(f'<div class="stat"><b>{tr:,}</b><span>port calls in the latest 28 days<br>{100 * (tr / tb - 1):+.1f}% against the same days a year earlier</span></div>', unsafe_allow_html=True)
+c2.markdown(f'<div class="stat"><b>{int((ranked.change < 0).sum())} down · {int((ranked.change > 0).sum())} up</b><span>among the {len(ranked)} ports with at least 50 calls a year earlier</span></div>', unsafe_allow_html=True)
+c3.markdown(f'<div class="stat"><b>{int(ports.ISO3.nunique())} countries</b><span>AIS-observed ship calls, a snapshot refreshed by hand</span></div>', unsafe_allow_html=True)
+st.markdown('<div class="note"><b>Read this as a map of changes, not causes.</b> Counts come from ships\' tracking signals (AIS), which miss ships with transponders off. Each comparison inherits what happened a year earlier.</div>', unsafe_allow_html=True)
 
-rb, rr = info[f"baseline_{w}"], info[f"recent_{w}"]
-tot_b, tot_r = int(df.base.sum()), int(df.recent.sum())
-pct_change = 100 * (tot_r / tot_b - 1)
+# ---------------- time machine ----------------
+st.markdown('<div class="sec">The time machine</div><div class="sub">Drag the clock, or press a story. Each bubble is a country, placed at its busiest port. Orange fell below its usual level, blue rose above it, grey stayed close.</div>', unsafe_allow_html=True)
+rate = cm.pivot(index="month_start", columns="ISO3", values="calls_per_day").sort_index()
+labels = [m.strftime("%b %Y") for m in rate.index]
+pre = [m for m in rate.index if m <= pd.Timestamp("2026-02-01")] or list(rate.index)
+ref = rate.loc[pre].mean()
+if "month" not in st.session_state:
+    st.session_state["month"] = labels[-1]
 
-# --- HERO SECTION ---
-st.markdown(f"""
-    <div class="animated-container" style="padding: 10px 0 15px 0;">
-        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
-            <div>
-                <h1 style="font-size: 2.3rem; margin: 0 0 6px 0; color: #F8FAFC;">Global Port Traffic Intelligence</h1>
-                <p style="color: #94A3B8; font-size: 1rem; margin: 0;">
-                    Comparing <span style="color: #38BDF8; font-weight: 600;">{rr[0]} to {rr[1]}</span> 
-                    vs Baseline <span style="color: #94A3B8; font-weight: 600;">{rb[0]} to {rb[1]}</span>
-                </p>
-            </div>
-            <div>
-                <div class="live-badge">
-                    <span class="pulse-dot"></span>AIS ENGINE ACTIVE
-                </div>
-            </div>
-        </div>
-    </div>
-""", unsafe_allow_html=True)
 
-# --- KPI METRIC TILES ---
-k1, k2, k3, k4 = st.columns(4)
+def go(story):
+    month = STORIES[story][0] or labels[-1]
+    if month in labels:
+        st.session_state["month"] = month; st.session_state["story"] = story
 
-with k1:
-    trend_class = "text-positive" if pct_change >= 0 else "text-negative"
-    st.markdown(f"""
-        <div class="metric-card">
-            <div class="metric-title">Total Port Calls</div>
-            <div class="metric-value">{tot_r:,}</div>
-            <div class="metric-sub {trend_class}">
-                {"▲" if pct_change >= 0 else "▼"} {pct_change:+.1f}% YoY Volume
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
 
-with k2:
-    st.markdown(f"""
-        <div class="metric-card">
-            <div class="metric-title">Ranked Ports</div>
-            <div class="metric-value">{len(shown):,}</div>
-            <div class="metric-sub text-neutral">Passing Threshold</div>
-        </div>
-    """, unsafe_allow_html=True)
+cols = st.columns(len(STORIES))
+for col, name in zip(cols, STORIES):
+    col.button(name, on_click=go, args=(name,), width="stretch", disabled=(STORIES[name][0] not in labels and STORIES[name][0] is not None))
+month_label = st.select_slider("Move the clock", options=labels, key="month")
+mi = labels.index(month_label)
+story = st.session_state.get("story")
+if story and (STORIES[story][0] or labels[-1]) == month_label:
+    st.markdown(f'<div class="note"><b>{html.escape(story)}.</b> {html.escape(STORIES[story][1])}</div>', unsafe_allow_html=True)
 
-with k3:
-    gaining = int((shown.change > 0).sum())
-    st.markdown(f"""
-        <div class="metric-card">
-            <div class="metric-title">Expansions</div>
-            <div class="metric-value" style="color: #10B981;">{gaining:,}</div>
-            <div class="metric-sub text-positive">Traffic Increased</div>
-        </div>
-    """, unsafe_allow_html=True)
+hub = ports.sort_values("base_90", ascending=False).drop_duplicates("ISO3").set_index("ISO3")[["lat", "lon", "country"]]
+now = rate.iloc[mi]
+m = pd.DataFrame({"now": now, "ref": ref}).join(hub, how="inner")
+m = m[m.ref >= 3].copy()
+m["ratio"] = m.now / m.ref
+m["color"] = m.ratio.map(lambda x: [230, 159, 0, 215] if x < 0.8 else ([86, 180, 233, 215] if x > 1.2 else [138, 155, 179, 170]))
+m["radius"] = m.now.clip(lower=0.5) ** 0.5 * 14000
+m["text"] = m.apply(lambda r: f"{r.country}: {r.now:.0f} calls a day ({100 * (r.ratio - 1):+.0f}% vs usual)", axis=1)
+layer = pdk.Layer("ScatterplotLayer", m.reset_index(), get_position="[lon, lat]", get_radius="radius", get_fill_color="color", pickable=True,
+                  radius_min_pixels=3, radius_max_pixels=46, stroked=True, get_line_color=[11, 37, 69, 255], line_width_min_pixels=1)
+st.pydeck_chart(pdk.Deck(layers=[layer], initial_view_state=pdk.ViewState(latitude=22, longitude=35, zoom=1.15), map_provider="carto", map_style="dark",
+                         tooltip={"text": "{text}"}), height=520)
+if mi > 0:
+    prev = rate.iloc[mi - 1]; chg = (now / prev - 1) * 100; big = prev >= 10
+    cn = hub["country"]
+    ups, downs = chg[big].nlargest(3), chg[big].nsmallest(3)
+    fmt = lambda s: " · ".join(f"<b>{html.escape(cn.get(i, i))}</b> {v:+.0f}%" for i, v in s.items())
+    st.markdown(f'<div class="sub">Against the month before ({labels[mi - 1]}, per day):<br>Biggest falls: {fmt(downs)}<br>Biggest rises: {fmt(ups)}</div>', unsafe_allow_html=True)
 
-with k4:
-    dropping = int((shown.change < 0).sum())
-    st.markdown(f"""
-        <div class="metric-card">
-            <div class="metric-title">Contractions</div>
-            <div class="metric-value" style="color: #EF4444;">{dropping:,}</div>
-            <div class="metric-sub text-negative">Traffic Decreased</div>
-        </div>
-    """, unsafe_allow_html=True)
-
-# --- MAP VISUALIZATION SECTION ---
-st.markdown('<div class="section-header">Live Spatial Vector Map</div>', unsafe_allow_html=True)
-
-if len(shown):
-    # Color mapping: Emerald for positive gains, Red for contractions
-    shown["color"] = shown.change.map(
-        lambda c: [239, 68, 68, 210] if c < 0 else [16, 185, 129, 210]
-    )
-    shown["radius"] = (shown.base.clip(lower=1) ** 0.5) * 2400
-
-    # PyDeck layer with standard token-free dark map style
-    scatterplot_layer = pdk.Layer(
-        "ScatterplotLayer",
-        shown,
-        get_position="[lon, lat]",
-        get_radius="radius",
-        get_fill_color="color",
-        pickable=True,
-        radius_min_pixels=3,
-        radius_max_pixels=42,
-        stroked=True,
-        get_line_color=[255, 255, 255, 80],
-        line_width_min_pixels=1
-    )
-
-    view_state = pdk.ViewState(latitude=20, longitude=15, zoom=1.4, pitch=20)
-    
-    st.pydeck_chart(
-        pdk.Deck(
-            map_style=pdk.map_styles.DARK,
-            layers=[scatterplot_layer],
-            initial_view_state=view_state,
-            tooltip={
-                "html": """
-                    <div style="background-color: #0F172A; color: #F8FAFC; padding: 12px; border-radius: 10px; border: 1px solid #334155; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
-                        <b style="font-size: 1rem; color: #38BDF8;">{portname}</b> ({country})<br/>
-                        <hr style="margin: 6px 0; border-color: #334155;"/>
-                        Baseline Calls: <b>{base}</b><br/>
-                        Recent Calls: <b>{recent}</b><br/>
-                        Net Shift: <b style="color: {'#10B981' if change >= 0 else '#EF4444'};">{change} ({pct}%)</b>
-                    </div>
-                """,
-                "style": {"color": "white", "zIndex": "1000"}
-            }
-        ),
-        height=520
-    )
-    st.caption("🟢 Green: Increased traffic vs. year earlier. 🔴 Red: Decreased traffic. Circle scale represents baseline volume.")
-else:
-    st.info("No ports meet the selected filter criteria.")
-
-# --- BIGGEST CHANGES SECTION ---
-st.markdown('<div class="section-header">Volatility Extremes</div>', unsafe_allow_html=True)
-cols = ["portname", "country", "base", "recent", "change", "pct"]
-
-col_a, col_b = st.columns(2)
-
-with col_a:
-    st.markdown("**🔻 Top 10 Contractions**")
-    drops_df = shown[shown.change < 0].nsmallest(10, "change")[cols]
-    st.dataframe(
-        drops_df,
-        column_config={
-            "portname": "Port",
-            "country": "Country",
-            "base": st.column_config.NumberColumn("Baseline", format="%d"),
-            "recent": st.column_config.NumberColumn("Recent", format="%d"),
-            "change": st.column_config.NumberColumn("Net Change", format="%d"),
-            "pct": st.column_config.NumberColumn("Change %", format="%.1f%%"),
-        },
-        hide_index=True,
-        use_container_width=True
-    )
-
-with col_b:
-    st.markdown("**🟢 Top 10 Expansions**")
-    gains_df = shown[shown.change > 0].nlargest(10, "change")[cols]
-    st.dataframe(
-        gains_df,
-        column_config={
-            "portname": "Port",
-            "country": "Country",
-            "base": st.column_config.NumberColumn("Baseline", format="%d"),
-            "recent": st.column_config.NumberColumn("Recent", format="%d"),
-            "change": st.column_config.NumberColumn("Net Change", format="%d"),
-            "pct": st.column_config.NumberColumn("Change %", format="%.1f%%"),
-        },
-        hide_index=True,
-        use_container_width=True
-    )
-
-# --- REGIONAL TREND ANALYSIS ---
-st.markdown('<div class="section-header">Regional Macro Index: Gulf vs Rest of World</div>', unsafe_allow_html=True)
-
-rate = cm.pivot(index="month_start", columns="ISO3", values="calls_per_day")
 g = [c for c in GULF if c in rate.columns]
-ref = [m_ for m_ in rate.index if m_ <= pd.Timestamp("2026-02-01")]
+if g:
+    gulf, rest = rate[g].sum(axis=1), rate.drop(columns=g).sum(axis=1)
+    idx = pd.DataFrame({"Gulf-region countries": 100 * gulf / gulf.loc[pre].mean(), "Rest of the world": 100 * rest / rest.loc[pre].mean()})
+    st.line_chart(idx, color=[DROP, FLAT], height=230)
+    st.caption("Calls per day, indexed so the months up to February 2026 average 100. The Gulf grouping is by country, so it is approximate.")
 
-if g and ref:
-    gulf = rate[g].sum(axis=1)
-    rest = rate.drop(columns=g).sum(axis=1)
-    
-    macro_df = pd.DataFrame({
-        "Date": rate.index,
-        "Gulf Region": 100 * gulf / gulf.loc[ref].mean(),
-        "Rest of World": 100 * rest / rest.loc[ref].mean()
-    }).melt("Date", var_name="Region", value_name="Index")
+# ---------------- leaderboard ----------------
+st.markdown('<div class="sec">The movers</div><div class="sub">Ports ranked by the change in ship calls: the latest 28 days against the same 28 days a year earlier. Percentages sit under the numbers because a big percentage on a small port can mislead.</div>', unsafe_allow_html=True)
+minvol = st.slider("Only rank ports with at least this many calls a year earlier", 0, 1000, 50, step=10)
+pool = df[df.base >= minvol]
+t1, t2 = st.tabs(["Fell the most", "Grew the most"])
+t1.markdown(bars(pool[pool.change < 0].nsmallest(10, "change"), DROP), unsafe_allow_html=True)
+t2.markdown(bars(pool[pool.change > 0].nlargest(10, "change"), GAIN), unsafe_allow_html=True)
+st.caption("A port that looks like a big gain may be recovering from a low period a year ago. The monthly history shows which.")
 
-    chart = alt.Chart(macro_df).mark_line(size=3, interpolate="monotone").encode(
-        x=alt.X("Date:T", title=""),
-        y=alt.Y("Index:Q", title="Indexed Calls/Day (Baseline Avg = 100)"),
-        color=alt.Color("Region:N", scale=alt.Scale(domain=["Gulf Region", "Rest of World"], range=["#EF4444", "#38BDF8"])),
-        tooltip=["Date:T", "Region:N", alt.Tooltip("Index:Q", format=".1f")]
-    ).properties(height=320).configure_view(strokeWidth=0).configure_axis(
-        gridColor="rgba(255, 255, 255, 0.04)",
-        domainColor="rgba(255, 255, 255, 0.1)",
-        labelColor="#94A3B8",
-        titleColor="#94A3B8"
-    ).configure_legend(
-        labelColor="#F8FAFC",
-        titleColor="#F8FAFC",
-        orient="top-left"
-    )
-
-    st.altair_chart(chart, use_container_width=True)
-
-# --- SINGLE PORT DRILLDOWN ---
-st.markdown('<div class="section-header">Individual Port Telemetry Inspector</div>', unsafe_allow_html=True)
-
+# ---------------- port postcard ----------------
+st.markdown('<div class="sec">Meet a port</div><div class="sub">Pick any port for its postcard. Type to search.</div>', unsafe_allow_html=True)
 opts = df.sort_values("base", ascending=False)
-label = opts.portname + ", " + opts.country.fillna("") + " (" + opts.portid + ")"
-choice = st.selectbox("Select Port", label.tolist())
-
-pid = choice.rsplit("(", 1)[1].rstrip(")")
-last = pd.Timestamp(info["last_day"])
-
-try:
-    with st.spinner("Streaming port telemetry..."):
-        d = port_daily(pid, str((last - pd.Timedelta(days=400)).date()))
+label = (opts.portname + ", " + opts.country + " (" + opts.portid + ")").tolist()
+pid = st.selectbox("Port", label).rsplit("(", 1)[1].rstrip(")")
+r_ = df[df.portid == pid].iloc[0]
+verb = "fewer" if r_.change < 0 else "more"
+mix = "".join(f'<div class="row"><div>{n}</div><div><div class="bar" style="width:{100 * r_[f"recent_28_{k}"] / max(r_.recent, 1):.0f}%;background:{GAIN}"></div></div><div class="num">{int(r_[f"recent_28_{k}"])}</div></div>' for k, n in TYPES.items())
+left, right = st.columns([1, 1.25])
+with left:
+    st.markdown(f'<div class="card"><h3>{html.escape(r_.portname)}</h3><span style="opacity:.75">{html.escape(r_.country)} · {html.escape(r_.continent)}</span>'
+                f'<p class="big">{int(r_.recent):,} calls</p><p>in the latest 28 days: <b>{abs(int(r_.change)):,} {verb}</b> than the {int(r_.base):,} a year earlier'
+                f'{"" if pd.isna(r_.pct) else f" ({r_.pct:+.1f}%)"}.</p><b>Ship mix, latest 28 days</b>{mix}</div>', unsafe_allow_html=True)
+with right:
+    try:
+        d = port_daily(pid, str((pd.Timestamp(info["last_day"]) - pd.Timedelta(days=400)).date()))
         d["7-day average"] = d["portcalls"].rolling(7).mean()
-        
-        r_ = df[df.portid == pid].iloc[0]
-        
-        st.caption(f"**{r_.portname}** recorded **{int(r_.recent):,}** calls over the last {w} days against **{int(r_.base):,}** a year earlier (Past 400 Days Rolling Average).")
-
-        port_chart = alt.Chart(d).mark_area(
-            line={"color": "#38BDF8", "size": 2.5},
-            color=alt.Gradient(
-                gradient="linear",
-                stops=[
-                    alt.GradientStop(color="rgba(56, 189, 248, 0.5)", offset=1),
-                    alt.GradientStop(color="rgba(56, 189, 248, 0.0)", offset=0)
-                ],
-                x1=1, x2=1, y1=1, y2=0
-            )
-        ).encode(
-            x=alt.X("date:T", title="Date"),
-            y=alt.Y("7-day average:Q", title="7-Day Moving Avg Calls"),
-            tooltip=["date:T", alt.Tooltip("7-day average:Q", format=".1f"), "portcalls:Q"]
-        ).properties(height=300).configure_axis(
-            gridColor="rgba(255, 255, 255, 0.04)",
-            labelColor="#94A3B8",
-            titleColor="#94A3B8"
-        )
-        
-        st.altair_chart(port_chart, use_container_width=True)
-
-except Exception as e:
-    st.warning(f"Could not load daily telemetry data for this port: {e}")
+        st.line_chart(d.set_index("date")[["7-day average"]], color=[GAIN], height=300)
+        st.caption("Calls per day, 7-day average, the last 400 days.")
+    except Exception as e:
+        st.warning(f"Could not load this port's daily history right now ({e}).")
 
 st.markdown("---")
-st.markdown("""
-    <div style="text-align: center; color: #64748B; font-size: 0.8rem; padding: 10px 0;">
-        Powered by UN Global Platform & IMF PortWatch AIS Engine | Nexus Maritime Intelligence Command
-    </div>
-""", unsafe_allow_html=True)
+st.markdown("Sources: UN Global Platform; IMF PortWatch (AIS-observed port calls). Method, notebooks and code: github.com/binary-cpu/port-tracker")
