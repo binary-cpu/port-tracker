@@ -2,7 +2,7 @@
 
 Which ports gained or lost ship traffic compared with a year earlier, and where did the changes start?
 
-**Live dashboard:** [https://port-tracker-ndbpex2rmrqv3pbbhxeb7u.streamlit.app/#port-tracker] (free hosting: it may take a moment to wake up)
+**Live dashboard:** (https://port-tracker-ndbpex2rmrqv3pbbhxeb7u.streamlit.app/#port-tracker) (free hosting: it may take a moment to wake up)
 
 **Data snapshot:** through 2026-10-09. Sources: UN Global Platform; IMF PortWatch (AIS-observed port calls at 2,065 ports, 2019 to 2026). The repo holds derived summaries only.
 
